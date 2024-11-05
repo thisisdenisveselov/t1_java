@@ -1,0 +1,8002 @@
+[
+  {
+    "type": "DEBIT",
+    "balance": 56926260.99,
+    "owner": {
+      "id": 200
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 18751433.24,
+    "owner": {
+      "id": 342
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 52757370.52,
+    "owner": {
+      "id": 493
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 61096427.81,
+    "owner": {
+      "id": 816
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 80001203.5,
+    "owner": {
+      "id": 697
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 25708391.56,
+    "owner": {
+      "id": 937
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 17029758.03,
+    "owner": {
+      "id": 166
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 72715670.92,
+    "owner": {
+      "id": 6
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 60272082.29,
+    "owner": {
+      "id": 674
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 45248786.89,
+    "owner": {
+      "id": 245
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 24836863.51,
+    "owner": {
+      "id": 128
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 55321608.43,
+    "owner": {
+      "id": 700
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 70632889.94,
+    "owner": {
+      "id": 936
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 3551853.89,
+    "owner": {
+      "id": 368
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 39784096.99,
+    "owner": {
+      "id": 656
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 9474757.21,
+    "owner": {
+      "id": 83
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 32454781.85,
+    "owner": {
+      "id": 903
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 40338984.81,
+    "owner": {
+      "id": 742
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 38357797.33,
+    "owner": {
+      "id": 365
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 29853017.09,
+    "owner": {
+      "id": 671
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 8487316.25,
+    "owner": {
+      "id": 332
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 11052309.54,
+    "owner": {
+      "id": 59
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 57227901.69,
+    "owner": {
+      "id": 660
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 83547828.15,
+    "owner": {
+      "id": 238
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 82097144.71,
+    "owner": {
+      "id": 102
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 50271522.55,
+    "owner": {
+      "id": 547
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 87206064.28,
+    "owner": {
+      "id": 200
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 52398181.67,
+    "owner": {
+      "id": 962
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 23888387.76,
+    "owner": {
+      "id": 17
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 54747210.3,
+    "owner": {
+      "id": 89
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 56305933.43,
+    "owner": {
+      "id": 721
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 59424234.51,
+    "owner": {
+      "id": 230
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 62872569.74,
+    "owner": {
+      "id": 804
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 76078649.92,
+    "owner": {
+      "id": 858
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 60826851.25,
+    "owner": {
+      "id": 498
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 14484297.46,
+    "owner": {
+      "id": 137
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 21838123.19,
+    "owner": {
+      "id": 617
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 66496399.08,
+    "owner": {
+      "id": 907
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 50080787.9,
+    "owner": {
+      "id": 133
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 23169323.61,
+    "owner": {
+      "id": 288
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 72361074.79,
+    "owner": {
+      "id": 765
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 75444583.19,
+    "owner": {
+      "id": 836
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 30742814.48,
+    "owner": {
+      "id": 484
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 82605386.71,
+    "owner": {
+      "id": 214
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 72369585.14,
+    "owner": {
+      "id": 531
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 90881694.9,
+    "owner": {
+      "id": 513
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 29628361.21,
+    "owner": {
+      "id": 754
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 10242470.91,
+    "owner": {
+      "id": 169
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 29708279.28,
+    "owner": {
+      "id": 691
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 97141862.97,
+    "owner": {
+      "id": 38
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 2086040.29,
+    "owner": {
+      "id": 540
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 54881449.14,
+    "owner": {
+      "id": 699
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 84331054.46,
+    "owner": {
+      "id": 287
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 13390619.56,
+    "owner": {
+      "id": 571
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 43849707.85,
+    "owner": {
+      "id": 415
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 90564933.78,
+    "owner": {
+      "id": 384
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 34761473.1,
+    "owner": {
+      "id": 417
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 65127131.6,
+    "owner": {
+      "id": 597
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 59306294.32,
+    "owner": {
+      "id": 256
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 28653052.71,
+    "owner": {
+      "id": 716
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 15316483.69,
+    "owner": {
+      "id": 197
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 47733736.88,
+    "owner": {
+      "id": 747
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 94632809.83,
+    "owner": {
+      "id": 919
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 60391111.01,
+    "owner": {
+      "id": 891
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 15519401.07,
+    "owner": {
+      "id": 399
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 75667739.6,
+    "owner": {
+      "id": 135
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 42210761.85,
+    "owner": {
+      "id": 245
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 15516681.0,
+    "owner": {
+      "id": 264
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 29574124.08,
+    "owner": {
+      "id": 730
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 46790045.21,
+    "owner": {
+      "id": 295
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 13319605.67,
+    "owner": {
+      "id": 558
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 7676584.56,
+    "owner": {
+      "id": 278
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 927347.12,
+    "owner": {
+      "id": 247
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 96219362.64,
+    "owner": {
+      "id": 951
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 7757398.77,
+    "owner": {
+      "id": 825
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 42214179.57,
+    "owner": {
+      "id": 985
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 94549536.59,
+    "owner": {
+      "id": 67
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 19405.59,
+    "owner": {
+      "id": 601
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 12826144.03,
+    "owner": {
+      "id": 373
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 49328264.36,
+    "owner": {
+      "id": 16
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 53034723.12,
+    "owner": {
+      "id": 785
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 95784168.37,
+    "owner": {
+      "id": 34
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 52927489.92,
+    "owner": {
+      "id": 618
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 31810092.19,
+    "owner": {
+      "id": 576
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 60891815.36,
+    "owner": {
+      "id": 600
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 80447062.26,
+    "owner": {
+      "id": 830
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 51312945.32,
+    "owner": {
+      "id": 371
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 22680832.01,
+    "owner": {
+      "id": 365
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 76262074.85,
+    "owner": {
+      "id": 124
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 73964656.69,
+    "owner": {
+      "id": 488
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 35561009.69,
+    "owner": {
+      "id": 500
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 31483769.76,
+    "owner": {
+      "id": 805
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 86062731.32,
+    "owner": {
+      "id": 738
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 34270546.83,
+    "owner": {
+      "id": 766
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 88293397.36,
+    "owner": {
+      "id": 949
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 40590839.71,
+    "owner": {
+      "id": 209
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 6941146.31,
+    "owner": {
+      "id": 716
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 81016896.28,
+    "owner": {
+      "id": 379
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 6809322.45,
+    "owner": {
+      "id": 885
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 15129887.65,
+    "owner": {
+      "id": 341
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 54861875.64,
+    "owner": {
+      "id": 347
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 33971791.74,
+    "owner": {
+      "id": 735
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 98034908.73,
+    "owner": {
+      "id": 659
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 95745790.2,
+    "owner": {
+      "id": 715
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 53401767.6,
+    "owner": {
+      "id": 843
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 86068398.54,
+    "owner": {
+      "id": 461
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 65102275.8,
+    "owner": {
+      "id": 796
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 36158746.1,
+    "owner": {
+      "id": 171
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 141202.16,
+    "owner": {
+      "id": 455
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 17862412.24,
+    "owner": {
+      "id": 366
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 67683346.9,
+    "owner": {
+      "id": 134
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 60107112.7,
+    "owner": {
+      "id": 826
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 59442088.15,
+    "owner": {
+      "id": 780
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 76218679.83,
+    "owner": {
+      "id": 586
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 5658560.48,
+    "owner": {
+      "id": 859
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 3008160.81,
+    "owner": {
+      "id": 1000
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 64573170.2,
+    "owner": {
+      "id": 124
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 46906841.03,
+    "owner": {
+      "id": 902
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 7452409.44,
+    "owner": {
+      "id": 408
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 34452973.67,
+    "owner": {
+      "id": 109
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 91077692.11,
+    "owner": {
+      "id": 79
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 8285202.77,
+    "owner": {
+      "id": 245
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 18087157.54,
+    "owner": {
+      "id": 846
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 65589818.33,
+    "owner": {
+      "id": 488
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 63717839.01,
+    "owner": {
+      "id": 465
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 50691166.15,
+    "owner": {
+      "id": 774
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 54160158.33,
+    "owner": {
+      "id": 74
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 4575474.49,
+    "owner": {
+      "id": 909
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 78834223.1,
+    "owner": {
+      "id": 538
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 41880509.38,
+    "owner": {
+      "id": 960
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 18726039.99,
+    "owner": {
+      "id": 631
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 39063046.59,
+    "owner": {
+      "id": 466
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 93786747.8,
+    "owner": {
+      "id": 543
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 70795429.7,
+    "owner": {
+      "id": 752
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 8110376.06,
+    "owner": {
+      "id": 241
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 9991279.47,
+    "owner": {
+      "id": 173
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 62631012.04,
+    "owner": {
+      "id": 957
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 43607584.52,
+    "owner": {
+      "id": 130
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 16763203.23,
+    "owner": {
+      "id": 781
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 19358993.37,
+    "owner": {
+      "id": 101
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 14204318.05,
+    "owner": {
+      "id": 774
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 28575614.4,
+    "owner": {
+      "id": 669
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 77173131.61,
+    "owner": {
+      "id": 434
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 1112417.61,
+    "owner": {
+      "id": 329
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 47678252.62,
+    "owner": {
+      "id": 986
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 77643806.08,
+    "owner": {
+      "id": 117
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 37593718.45,
+    "owner": {
+      "id": 538
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 52023487.02,
+    "owner": {
+      "id": 702
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 30708885.22,
+    "owner": {
+      "id": 136
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 71731594.85,
+    "owner": {
+      "id": 449
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 62505446.14,
+    "owner": {
+      "id": 210
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 5496517.42,
+    "owner": {
+      "id": 646
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 87940610.2,
+    "owner": {
+      "id": 669
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 18205202.85,
+    "owner": {
+      "id": 35
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 99578405.59,
+    "owner": {
+      "id": 174
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 22342112.98,
+    "owner": {
+      "id": 579
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 78395179.38,
+    "owner": {
+      "id": 971
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 16596162.4,
+    "owner": {
+      "id": 612
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 88645991.57,
+    "owner": {
+      "id": 152
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 88079019.5,
+    "owner": {
+      "id": 697
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 5916930.34,
+    "owner": {
+      "id": 669
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 83788769.1,
+    "owner": {
+      "id": 213
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 46920091.75,
+    "owner": {
+      "id": 106
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 27057445.21,
+    "owner": {
+      "id": 977
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 68594594.45,
+    "owner": {
+      "id": 333
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 16867826.58,
+    "owner": {
+      "id": 348
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 302772.42,
+    "owner": {
+      "id": 854
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 73923095.12,
+    "owner": {
+      "id": 633
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 99497490.96,
+    "owner": {
+      "id": 879
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 5451725.34,
+    "owner": {
+      "id": 3
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 37680274.79,
+    "owner": {
+      "id": 777
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 68238631.21,
+    "owner": {
+      "id": 408
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 47070323.57,
+    "owner": {
+      "id": 744
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 86619089.7,
+    "owner": {
+      "id": 103
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 18315033.8,
+    "owner": {
+      "id": 808
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 93439081.77,
+    "owner": {
+      "id": 202
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 46806600.7,
+    "owner": {
+      "id": 658
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 49713776.5,
+    "owner": {
+      "id": 281
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 18986957.7,
+    "owner": {
+      "id": 228
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 84142037.73,
+    "owner": {
+      "id": 651
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 79983355.1,
+    "owner": {
+      "id": 558
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 98773608.64,
+    "owner": {
+      "id": 767
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 75982259.54,
+    "owner": {
+      "id": 754
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 49934497.24,
+    "owner": {
+      "id": 795
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 16946080.3,
+    "owner": {
+      "id": 350
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 64049971.68,
+    "owner": {
+      "id": 606
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 26120804.7,
+    "owner": {
+      "id": 310
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 1119105.01,
+    "owner": {
+      "id": 269
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 48793949.18,
+    "owner": {
+      "id": 274
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 38204301.57,
+    "owner": {
+      "id": 941
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 5323558.05,
+    "owner": {
+      "id": 802
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 88420478.38,
+    "owner": {
+      "id": 881
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 82484265.01,
+    "owner": {
+      "id": 745
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 48923671.17,
+    "owner": {
+      "id": 407
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 69833883.13,
+    "owner": {
+      "id": 200
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 99832731.99,
+    "owner": {
+      "id": 742
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 78716492.57,
+    "owner": {
+      "id": 730
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 26061389.03,
+    "owner": {
+      "id": 858
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 99503071.17,
+    "owner": {
+      "id": 676
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 79527046.71,
+    "owner": {
+      "id": 975
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 93878468.1,
+    "owner": {
+      "id": 490
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 20727691.81,
+    "owner": {
+      "id": 293
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 14254568.46,
+    "owner": {
+      "id": 820
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 6914999.62,
+    "owner": {
+      "id": 763
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 88098052.12,
+    "owner": {
+      "id": 433
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 44189084.06,
+    "owner": {
+      "id": 446
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 95785518.99,
+    "owner": {
+      "id": 879
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 30934915.67,
+    "owner": {
+      "id": 231
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 11821655.5,
+    "owner": {
+      "id": 254
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 43619593.38,
+    "owner": {
+      "id": 455
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 42702383.6,
+    "owner": {
+      "id": 205
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 5841990.59,
+    "owner": {
+      "id": 114
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 70236388.3,
+    "owner": {
+      "id": 859
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 68015060.69,
+    "owner": {
+      "id": 468
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 6730486.22,
+    "owner": {
+      "id": 83
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 86079425.71,
+    "owner": {
+      "id": 790
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 51792106.09,
+    "owner": {
+      "id": 415
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 60000264.8,
+    "owner": {
+      "id": 784
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 67632815.95,
+    "owner": {
+      "id": 484
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 87815423.55,
+    "owner": {
+      "id": 859
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 82707706.51,
+    "owner": {
+      "id": 486
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 83761381.32,
+    "owner": {
+      "id": 890
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 87747350.6,
+    "owner": {
+      "id": 110
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 90432472.52,
+    "owner": {
+      "id": 833
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 82049276.65,
+    "owner": {
+      "id": 273
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 17419329.28,
+    "owner": {
+      "id": 321
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 7984612.09,
+    "owner": {
+      "id": 991
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 68270565.11,
+    "owner": {
+      "id": 229
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 76961903.57,
+    "owner": {
+      "id": 296
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 67742439.07,
+    "owner": {
+      "id": 21
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 27979859.54,
+    "owner": {
+      "id": 497
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 73765102.71,
+    "owner": {
+      "id": 282
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 47966782.64,
+    "owner": {
+      "id": 575
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 31699017.93,
+    "owner": {
+      "id": 646
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 75736506.83,
+    "owner": {
+      "id": 477
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 10804435.01,
+    "owner": {
+      "id": 806
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 73073570.3,
+    "owner": {
+      "id": 483
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 89591645.68,
+    "owner": {
+      "id": 938
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 48818068.0,
+    "owner": {
+      "id": 222
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 5102629.85,
+    "owner": {
+      "id": 170
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 69934822.34,
+    "owner": {
+      "id": 648
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 28586640.02,
+    "owner": {
+      "id": 286
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 99158127.69,
+    "owner": {
+      "id": 277
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 87794411.79,
+    "owner": {
+      "id": 932
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 11601560.31,
+    "owner": {
+      "id": 899
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 11382860.35,
+    "owner": {
+      "id": 915
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 37307357.31,
+    "owner": {
+      "id": 519
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 27270780.67,
+    "owner": {
+      "id": 942
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 93938983.31,
+    "owner": {
+      "id": 931
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 28693703.37,
+    "owner": {
+      "id": 436
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 14527732.82,
+    "owner": {
+      "id": 309
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 45262265.25,
+    "owner": {
+      "id": 329
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 38650497.87,
+    "owner": {
+      "id": 859
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 58823218.69,
+    "owner": {
+      "id": 916
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 67867002.87,
+    "owner": {
+      "id": 43
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 61695829.65,
+    "owner": {
+      "id": 618
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 75702592.66,
+    "owner": {
+      "id": 532
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 18327686.33,
+    "owner": {
+      "id": 357
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 84061383.84,
+    "owner": {
+      "id": 179
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 79268140.47,
+    "owner": {
+      "id": 89
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 11591755.78,
+    "owner": {
+      "id": 683
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 58844181.19,
+    "owner": {
+      "id": 448
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 36130576.96,
+    "owner": {
+      "id": 251
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 10343960.18,
+    "owner": {
+      "id": 459
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 59657036.25,
+    "owner": {
+      "id": 720
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 10830647.86,
+    "owner": {
+      "id": 738
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 97180633.28,
+    "owner": {
+      "id": 526
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 92463134.06,
+    "owner": {
+      "id": 257
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 76958325.77,
+    "owner": {
+      "id": 520
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 35243931.95,
+    "owner": {
+      "id": 279
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 70221241.43,
+    "owner": {
+      "id": 747
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 25392729.87,
+    "owner": {
+      "id": 908
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 82496077.52,
+    "owner": {
+      "id": 964
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 78678528.15,
+    "owner": {
+      "id": 767
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 41907279.16,
+    "owner": {
+      "id": 186
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 48935370.02,
+    "owner": {
+      "id": 397
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 53119111.57,
+    "owner": {
+      "id": 259
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 85226559.35,
+    "owner": {
+      "id": 305
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 19404306.08,
+    "owner": {
+      "id": 963
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 91172404.85,
+    "owner": {
+      "id": 516
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 30121885.37,
+    "owner": {
+      "id": 517
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 75672605.39,
+    "owner": {
+      "id": 557
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 40096255.29,
+    "owner": {
+      "id": 677
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 80254574.18,
+    "owner": {
+      "id": 984
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 97969732.69,
+    "owner": {
+      "id": 954
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 62952186.63,
+    "owner": {
+      "id": 975
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 80057667.29,
+    "owner": {
+      "id": 275
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 86646180.82,
+    "owner": {
+      "id": 32
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 74018705.37,
+    "owner": {
+      "id": 349
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 77986429.57,
+    "owner": {
+      "id": 862
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 27272817.7,
+    "owner": {
+      "id": 470
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 24792158.97,
+    "owner": {
+      "id": 215
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 4483858.0,
+    "owner": {
+      "id": 648
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 59816858.87,
+    "owner": {
+      "id": 833
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 20101603.1,
+    "owner": {
+      "id": 616
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 32997547.2,
+    "owner": {
+      "id": 568
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 90368277.03,
+    "owner": {
+      "id": 420
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 40678819.93,
+    "owner": {
+      "id": 384
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 22702788.59,
+    "owner": {
+      "id": 794
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 22596551.95,
+    "owner": {
+      "id": 194
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 91900283.34,
+    "owner": {
+      "id": 779
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 20844624.94,
+    "owner": {
+      "id": 92
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 97599513.38,
+    "owner": {
+      "id": 78
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 43932747.02,
+    "owner": {
+      "id": 973
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 10212640.15,
+    "owner": {
+      "id": 151
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 96717330.92,
+    "owner": {
+      "id": 420
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 10414901.56,
+    "owner": {
+      "id": 545
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 6130088.38,
+    "owner": {
+      "id": 474
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 43605708.77,
+    "owner": {
+      "id": 879
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 9590138.74,
+    "owner": {
+      "id": 687
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 76535249.15,
+    "owner": {
+      "id": 738
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 49196052.43,
+    "owner": {
+      "id": 388
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 17243720.96,
+    "owner": {
+      "id": 848
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 38192542.88,
+    "owner": {
+      "id": 501
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 46244014.42,
+    "owner": {
+      "id": 134
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 28309962.74,
+    "owner": {
+      "id": 581
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 76202306.08,
+    "owner": {
+      "id": 763
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 71414810.12,
+    "owner": {
+      "id": 912
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 5372470.64,
+    "owner": {
+      "id": 39
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 56880660.17,
+    "owner": {
+      "id": 597
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 36028594.99,
+    "owner": {
+      "id": 598
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 69590601.44,
+    "owner": {
+      "id": 467
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 48143654.68,
+    "owner": {
+      "id": 940
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 10084187.88,
+    "owner": {
+      "id": 774
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 81108625.14,
+    "owner": {
+      "id": 592
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 86500725.3,
+    "owner": {
+      "id": 144
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 42516051.73,
+    "owner": {
+      "id": 736
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 10723959.47,
+    "owner": {
+      "id": 771
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 64987279.05,
+    "owner": {
+      "id": 908
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 64832155.98,
+    "owner": {
+      "id": 431
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 33157632.93,
+    "owner": {
+      "id": 489
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 70988569.57,
+    "owner": {
+      "id": 862
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 37263400.72,
+    "owner": {
+      "id": 612
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 44243897.6,
+    "owner": {
+      "id": 106
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 18161594.83,
+    "owner": {
+      "id": 683
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 92202337.15,
+    "owner": {
+      "id": 148
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 72567764.15,
+    "owner": {
+      "id": 16
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 54038139.44,
+    "owner": {
+      "id": 152
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 175459.06,
+    "owner": {
+      "id": 885
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 64126615.45,
+    "owner": {
+      "id": 490
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 3054514.41,
+    "owner": {
+      "id": 825
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 43505715.73,
+    "owner": {
+      "id": 25
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 29337739.23,
+    "owner": {
+      "id": 275
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 8442500.94,
+    "owner": {
+      "id": 299
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 8734848.05,
+    "owner": {
+      "id": 883
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 5346207.33,
+    "owner": {
+      "id": 198
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 18987054.82,
+    "owner": {
+      "id": 719
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 41698704.67,
+    "owner": {
+      "id": 433
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 24803576.18,
+    "owner": {
+      "id": 155
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 10329924.46,
+    "owner": {
+      "id": 440
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 61682042.71,
+    "owner": {
+      "id": 905
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 45300305.92,
+    "owner": {
+      "id": 513
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 60367665.04,
+    "owner": {
+      "id": 98
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 5335510.73,
+    "owner": {
+      "id": 28
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 82183327.5,
+    "owner": {
+      "id": 21
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 2616565.59,
+    "owner": {
+      "id": 42
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 26654786.43,
+    "owner": {
+      "id": 341
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 99343291.1,
+    "owner": {
+      "id": 96
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 9227585.83,
+    "owner": {
+      "id": 69
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 34503399.15,
+    "owner": {
+      "id": 533
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 98042156.21,
+    "owner": {
+      "id": 438
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 52483954.72,
+    "owner": {
+      "id": 711
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 31450538.49,
+    "owner": {
+      "id": 835
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 54552024.43,
+    "owner": {
+      "id": 203
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 30256723.36,
+    "owner": {
+      "id": 738
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 50541645.95,
+    "owner": {
+      "id": 113
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 25300906.36,
+    "owner": {
+      "id": 632
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 22315881.5,
+    "owner": {
+      "id": 804
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 7450756.73,
+    "owner": {
+      "id": 715
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 13731738.95,
+    "owner": {
+      "id": 961
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 9475989.01,
+    "owner": {
+      "id": 977
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 80726422.84,
+    "owner": {
+      "id": 747
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 36748315.61,
+    "owner": {
+      "id": 62
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 31986557.05,
+    "owner": {
+      "id": 308
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 82864501.55,
+    "owner": {
+      "id": 93
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 53726099.09,
+    "owner": {
+      "id": 946
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 10376316.63,
+    "owner": {
+      "id": 983
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 29545680.71,
+    "owner": {
+      "id": 284
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 50155302.79,
+    "owner": {
+      "id": 549
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 54564009.96,
+    "owner": {
+      "id": 629
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 62318321.01,
+    "owner": {
+      "id": 250
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 38542870.38,
+    "owner": {
+      "id": 155
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 51000421.95,
+    "owner": {
+      "id": 543
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 15315401.4,
+    "owner": {
+      "id": 551
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 64554865.67,
+    "owner": {
+      "id": 908
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 701032.73,
+    "owner": {
+      "id": 782
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 76687090.11,
+    "owner": {
+      "id": 750
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 31195593.5,
+    "owner": {
+      "id": 903
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 40274258.49,
+    "owner": {
+      "id": 521
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 56017893.49,
+    "owner": {
+      "id": 267
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 31200885.29,
+    "owner": {
+      "id": 351
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 43155164.36,
+    "owner": {
+      "id": 922
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 96354793.56,
+    "owner": {
+      "id": 202
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 51887881.62,
+    "owner": {
+      "id": 320
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 30936569.36,
+    "owner": {
+      "id": 616
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 34464467.32,
+    "owner": {
+      "id": 37
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 14339125.04,
+    "owner": {
+      "id": 759
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 88759319.8,
+    "owner": {
+      "id": 317
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 19593021.6,
+    "owner": {
+      "id": 391
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 63924309.98,
+    "owner": {
+      "id": 350
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 40920370.35,
+    "owner": {
+      "id": 948
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 45616341.51,
+    "owner": {
+      "id": 49
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 26286802.22,
+    "owner": {
+      "id": 86
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 91282871.02,
+    "owner": {
+      "id": 983
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 68624631.23,
+    "owner": {
+      "id": 421
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 82818763.98,
+    "owner": {
+      "id": 791
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 27931756.7,
+    "owner": {
+      "id": 725
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 20682277.34,
+    "owner": {
+      "id": 230
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 16096857.92,
+    "owner": {
+      "id": 900
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 61191620.67,
+    "owner": {
+      "id": 821
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 33020382.82,
+    "owner": {
+      "id": 180
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 1849169.26,
+    "owner": {
+      "id": 527
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 92862451.92,
+    "owner": {
+      "id": 955
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 78531179.56,
+    "owner": {
+      "id": 490
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 92619280.69,
+    "owner": {
+      "id": 803
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 39321223.99,
+    "owner": {
+      "id": 912
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 47941224.98,
+    "owner": {
+      "id": 677
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 91632409.51,
+    "owner": {
+      "id": 834
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 44783255.64,
+    "owner": {
+      "id": 886
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 5150308.44,
+    "owner": {
+      "id": 892
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 13756561.37,
+    "owner": {
+      "id": 54
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 52817983.83,
+    "owner": {
+      "id": 869
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 18056428.19,
+    "owner": {
+      "id": 810
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 2882303.41,
+    "owner": {
+      "id": 968
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 12053087.62,
+    "owner": {
+      "id": 224
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 17668982.28,
+    "owner": {
+      "id": 402
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 76990608.23,
+    "owner": {
+      "id": 630
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 50644458.67,
+    "owner": {
+      "id": 491
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 58108596.46,
+    "owner": {
+      "id": 935
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 68844805.9,
+    "owner": {
+      "id": 231
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 8842381.75,
+    "owner": {
+      "id": 991
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 91573272.89,
+    "owner": {
+      "id": 112
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 4333632.66,
+    "owner": {
+      "id": 741
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 93332135.99,
+    "owner": {
+      "id": 233
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 89339281.14,
+    "owner": {
+      "id": 952
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 9082045.05,
+    "owner": {
+      "id": 737
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 93151349.37,
+    "owner": {
+      "id": 851
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 63008156.53,
+    "owner": {
+      "id": 401
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 81833314.75,
+    "owner": {
+      "id": 710
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 55663370.21,
+    "owner": {
+      "id": 803
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 68401061.63,
+    "owner": {
+      "id": 587
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 53978674.4,
+    "owner": {
+      "id": 296
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 13530486.32,
+    "owner": {
+      "id": 649
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 46851425.01,
+    "owner": {
+      "id": 302
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 15062332.25,
+    "owner": {
+      "id": 136
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 34258717.78,
+    "owner": {
+      "id": 792
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 40212759.52,
+    "owner": {
+      "id": 674
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 14396028.23,
+    "owner": {
+      "id": 912
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 81248970.37,
+    "owner": {
+      "id": 932
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 12005047.77,
+    "owner": {
+      "id": 535
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 71937216.66,
+    "owner": {
+      "id": 912
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 75567355.61,
+    "owner": {
+      "id": 568
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 38206475.11,
+    "owner": {
+      "id": 388
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 97379612.1,
+    "owner": {
+      "id": 869
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 82076808.08,
+    "owner": {
+      "id": 168
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 75000456.11,
+    "owner": {
+      "id": 580
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 49695957.6,
+    "owner": {
+      "id": 95
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 58580032.39,
+    "owner": {
+      "id": 693
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 33477597.19,
+    "owner": {
+      "id": 123
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 46909722.22,
+    "owner": {
+      "id": 726
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 17048012.74,
+    "owner": {
+      "id": 860
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 93802586.57,
+    "owner": {
+      "id": 175
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 66329654.43,
+    "owner": {
+      "id": 164
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 41095649.32,
+    "owner": {
+      "id": 62
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 64018025.38,
+    "owner": {
+      "id": 247
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 77299680.79,
+    "owner": {
+      "id": 196
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 74570633.42,
+    "owner": {
+      "id": 643
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 10455123.83,
+    "owner": {
+      "id": 823
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 49878705.49,
+    "owner": {
+      "id": 152
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 48817370.41,
+    "owner": {
+      "id": 326
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 55751250.91,
+    "owner": {
+      "id": 756
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 96023360.4,
+    "owner": {
+      "id": 146
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 81771059.96,
+    "owner": {
+      "id": 966
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 93467047.54,
+    "owner": {
+      "id": 821
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 77801847.57,
+    "owner": {
+      "id": 67
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 80307902.66,
+    "owner": {
+      "id": 927
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 88749291.33,
+    "owner": {
+      "id": 970
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 77441452.29,
+    "owner": {
+      "id": 524
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 46636992.49,
+    "owner": {
+      "id": 817
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 31272712.83,
+    "owner": {
+      "id": 539
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 89388005.7,
+    "owner": {
+      "id": 692
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 10202332.12,
+    "owner": {
+      "id": 219
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 84303187.65,
+    "owner": {
+      "id": 231
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 51211041.44,
+    "owner": {
+      "id": 433
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 4362442.53,
+    "owner": {
+      "id": 174
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 58346689.03,
+    "owner": {
+      "id": 692
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 5865514.14,
+    "owner": {
+      "id": 762
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 8660626.45,
+    "owner": {
+      "id": 38
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 89426388.84,
+    "owner": {
+      "id": 489
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 42248722.51,
+    "owner": {
+      "id": 394
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 35860602.17,
+    "owner": {
+      "id": 29
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 32391590.62,
+    "owner": {
+      "id": 114
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 86916735.05,
+    "owner": {
+      "id": 454
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 46744380.69,
+    "owner": {
+      "id": 33
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 77145241.74,
+    "owner": {
+      "id": 645
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 64425264.54,
+    "owner": {
+      "id": 85
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 296007.07,
+    "owner": {
+      "id": 557
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 40044542.42,
+    "owner": {
+      "id": 430
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 81204092.12,
+    "owner": {
+      "id": 328
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 8171021.25,
+    "owner": {
+      "id": 830
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 84243804.33,
+    "owner": {
+      "id": 786
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 94409531.38,
+    "owner": {
+      "id": 104
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 32065368.79,
+    "owner": {
+      "id": 723
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 23516661.52,
+    "owner": {
+      "id": 796
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 50021548.24,
+    "owner": {
+      "id": 704
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 11134198.23,
+    "owner": {
+      "id": 946
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 40582075.01,
+    "owner": {
+      "id": 399
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 63151191.4,
+    "owner": {
+      "id": 918
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 40292757.09,
+    "owner": {
+      "id": 55
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 85714041.45,
+    "owner": {
+      "id": 650
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 35841709.25,
+    "owner": {
+      "id": 392
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 65389935.69,
+    "owner": {
+      "id": 864
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 58030782.32,
+    "owner": {
+      "id": 73
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 55042525.41,
+    "owner": {
+      "id": 352
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 63289137.44,
+    "owner": {
+      "id": 579
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 63136560.56,
+    "owner": {
+      "id": 615
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 70767984.18,
+    "owner": {
+      "id": 451
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 66910221.01,
+    "owner": {
+      "id": 26
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 93043966.33,
+    "owner": {
+      "id": 620
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 78001825.22,
+    "owner": {
+      "id": 606
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 60148651.71,
+    "owner": {
+      "id": 611
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 49602606.64,
+    "owner": {
+      "id": 62
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 78603441.07,
+    "owner": {
+      "id": 47
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 85395190.6,
+    "owner": {
+      "id": 253
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 57693673.99,
+    "owner": {
+      "id": 359
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 20058369.67,
+    "owner": {
+      "id": 637
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 4511363.59,
+    "owner": {
+      "id": 888
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 86495101.15,
+    "owner": {
+      "id": 369
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 60582195.43,
+    "owner": {
+      "id": 893
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 80208189.61,
+    "owner": {
+      "id": 782
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 28433503.19,
+    "owner": {
+      "id": 622
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 56499156.43,
+    "owner": {
+      "id": 872
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 29918346.03,
+    "owner": {
+      "id": 306
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 93799204.28,
+    "owner": {
+      "id": 191
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 6973299.56,
+    "owner": {
+      "id": 926
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 83102633.18,
+    "owner": {
+      "id": 746
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 44332197.24,
+    "owner": {
+      "id": 476
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 72568334.73,
+    "owner": {
+      "id": 887
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 83116668.66,
+    "owner": {
+      "id": 776
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 39656308.18,
+    "owner": {
+      "id": 240
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 15087214.03,
+    "owner": {
+      "id": 272
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 66426422.16,
+    "owner": {
+      "id": 272
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 20257947.46,
+    "owner": {
+      "id": 703
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 14213397.97,
+    "owner": {
+      "id": 638
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 27048870.7,
+    "owner": {
+      "id": 369
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 31023042.53,
+    "owner": {
+      "id": 569
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 89290240.47,
+    "owner": {
+      "id": 674
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 36886756.91,
+    "owner": {
+      "id": 391
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 756517.08,
+    "owner": {
+      "id": 490
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 84478903.01,
+    "owner": {
+      "id": 307
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 12994794.69,
+    "owner": {
+      "id": 142
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 84799730.26,
+    "owner": {
+      "id": 719
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 81325905.92,
+    "owner": {
+      "id": 448
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 27763984.39,
+    "owner": {
+      "id": 529
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 96159488.53,
+    "owner": {
+      "id": 403
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 65655177.11,
+    "owner": {
+      "id": 689
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 1955323.71,
+    "owner": {
+      "id": 723
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 77643119.49,
+    "owner": {
+      "id": 464
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 10759839.13,
+    "owner": {
+      "id": 252
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 72344.72,
+    "owner": {
+      "id": 400
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 80969939.59,
+    "owner": {
+      "id": 39
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 92620630.66,
+    "owner": {
+      "id": 858
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 25569010.82,
+    "owner": {
+      "id": 328
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 88341384.56,
+    "owner": {
+      "id": 396
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 98318664.64,
+    "owner": {
+      "id": 33
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 88686489.05,
+    "owner": {
+      "id": 998
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 1967521.54,
+    "owner": {
+      "id": 741
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 3408519.47,
+    "owner": {
+      "id": 504
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 69597456.81,
+    "owner": {
+      "id": 417
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 88121197.78,
+    "owner": {
+      "id": 577
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 41617796.45,
+    "owner": {
+      "id": 53
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 11297478.94,
+    "owner": {
+      "id": 992
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 88112309.65,
+    "owner": {
+      "id": 372
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 41822672.67,
+    "owner": {
+      "id": 152
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 15135669.78,
+    "owner": {
+      "id": 790
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 30130105.23,
+    "owner": {
+      "id": 253
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 61212987.9,
+    "owner": {
+      "id": 781
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 3777641.27,
+    "owner": {
+      "id": 452
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 93123687.88,
+    "owner": {
+      "id": 548
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 37672503.55,
+    "owner": {
+      "id": 2
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 17863298.37,
+    "owner": {
+      "id": 817
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 37995333.26,
+    "owner": {
+      "id": 773
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 11792278.96,
+    "owner": {
+      "id": 572
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 8604927.1,
+    "owner": {
+      "id": 20
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 81712038.78,
+    "owner": {
+      "id": 697
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 16256781.31,
+    "owner": {
+      "id": 881
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 32544702.6,
+    "owner": {
+      "id": 948
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 42314118.56,
+    "owner": {
+      "id": 213
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 31143909.96,
+    "owner": {
+      "id": 101
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 78564361.96,
+    "owner": {
+      "id": 830
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 18220907.35,
+    "owner": {
+      "id": 57
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 26084701.06,
+    "owner": {
+      "id": 568
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 803253.44,
+    "owner": {
+      "id": 851
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 49509972.54,
+    "owner": {
+      "id": 954
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 63872836.03,
+    "owner": {
+      "id": 532
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 98016705.82,
+    "owner": {
+      "id": 738
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 98113598.39,
+    "owner": {
+      "id": 552
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 88857138.79,
+    "owner": {
+      "id": 979
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 43101505.29,
+    "owner": {
+      "id": 631
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 84838236.44,
+    "owner": {
+      "id": 521
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 53254647.85,
+    "owner": {
+      "id": 115
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 94220364.15,
+    "owner": {
+      "id": 908
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 32390379.13,
+    "owner": {
+      "id": 27
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 71317818.31,
+    "owner": {
+      "id": 58
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 70958748.32,
+    "owner": {
+      "id": 113
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 52668811.7,
+    "owner": {
+      "id": 847
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 82006766.93,
+    "owner": {
+      "id": 312
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 894755.59,
+    "owner": {
+      "id": 439
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 51155778.34,
+    "owner": {
+      "id": 811
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 30303492.65,
+    "owner": {
+      "id": 9
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 53669437.2,
+    "owner": {
+      "id": 504
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 1931056.2,
+    "owner": {
+      "id": 653
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 35736647.47,
+    "owner": {
+      "id": 50
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 58167897.04,
+    "owner": {
+      "id": 793
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 69075396.21,
+    "owner": {
+      "id": 137
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 32452851.98,
+    "owner": {
+      "id": 234
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 85572406.74,
+    "owner": {
+      "id": 296
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 76737830.33,
+    "owner": {
+      "id": 631
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 2080096.86,
+    "owner": {
+      "id": 72
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 56866301.72,
+    "owner": {
+      "id": 452
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 37019626.05,
+    "owner": {
+      "id": 103
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 60078697.91,
+    "owner": {
+      "id": 679
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 95346745.05,
+    "owner": {
+      "id": 909
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 76036801.62,
+    "owner": {
+      "id": 453
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 96365164.31,
+    "owner": {
+      "id": 54
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 73636371.11,
+    "owner": {
+      "id": 480
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 90078893.84,
+    "owner": {
+      "id": 397
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 6947107.75,
+    "owner": {
+      "id": 948
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 25105622.42,
+    "owner": {
+      "id": 539
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 62632157.67,
+    "owner": {
+      "id": 758
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 37722616.48,
+    "owner": {
+      "id": 927
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 80664484.78,
+    "owner": {
+      "id": 201
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 76306874.42,
+    "owner": {
+      "id": 290
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 25828627.63,
+    "owner": {
+      "id": 655
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 29003994.08,
+    "owner": {
+      "id": 559
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 92629250.54,
+    "owner": {
+      "id": 437
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 30951919.56,
+    "owner": {
+      "id": 685
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 30511409.71,
+    "owner": {
+      "id": 993
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 25904239.67,
+    "owner": {
+      "id": 549
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 86667355.83,
+    "owner": {
+      "id": 817
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 23922314.5,
+    "owner": {
+      "id": 905
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 5241488.58,
+    "owner": {
+      "id": 938
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 15218323.18,
+    "owner": {
+      "id": 777
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 37020518.16,
+    "owner": {
+      "id": 668
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 49957137.72,
+    "owner": {
+      "id": 860
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 82773933.2,
+    "owner": {
+      "id": 883
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 54359885.49,
+    "owner": {
+      "id": 857
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 13740150.44,
+    "owner": {
+      "id": 423
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 64719190.26,
+    "owner": {
+      "id": 69
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 35447585.37,
+    "owner": {
+      "id": 69
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 70405977.67,
+    "owner": {
+      "id": 968
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 89930296.48,
+    "owner": {
+      "id": 667
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 10540581.56,
+    "owner": {
+      "id": 407
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 2614751.29,
+    "owner": {
+      "id": 481
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 61850634.98,
+    "owner": {
+      "id": 721
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 28456193.94,
+    "owner": {
+      "id": 980
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 53070571.91,
+    "owner": {
+      "id": 726
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 68947033.05,
+    "owner": {
+      "id": 356
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 40437880.16,
+    "owner": {
+      "id": 185
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 54537316.02,
+    "owner": {
+      "id": 482
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 82263048.12,
+    "owner": {
+      "id": 946
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 13428089.5,
+    "owner": {
+      "id": 960
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 1311274.08,
+    "owner": {
+      "id": 863
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 18484312.06,
+    "owner": {
+      "id": 502
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 65621915.23,
+    "owner": {
+      "id": 789
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 90506277.97,
+    "owner": {
+      "id": 197
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 64733032.93,
+    "owner": {
+      "id": 495
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 33831613.63,
+    "owner": {
+      "id": 623
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 96902082.52,
+    "owner": {
+      "id": 428
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 18634381.07,
+    "owner": {
+      "id": 564
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 65520581.18,
+    "owner": {
+      "id": 316
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 52539151.06,
+    "owner": {
+      "id": 152
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 39320961.31,
+    "owner": {
+      "id": 227
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 50129848.94,
+    "owner": {
+      "id": 999
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 45699188.09,
+    "owner": {
+      "id": 829
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 90523841.4,
+    "owner": {
+      "id": 701
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 37131873.0,
+    "owner": {
+      "id": 689
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 96343884.41,
+    "owner": {
+      "id": 403
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 62948995.16,
+    "owner": {
+      "id": 674
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 79400276.98,
+    "owner": {
+      "id": 819
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 5608880.24,
+    "owner": {
+      "id": 76
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 89633616.9,
+    "owner": {
+      "id": 915
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 60213894.3,
+    "owner": {
+      "id": 375
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 8590469.89,
+    "owner": {
+      "id": 750
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 58142659.73,
+    "owner": {
+      "id": 308
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 10623015.52,
+    "owner": {
+      "id": 122
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 78054505.91,
+    "owner": {
+      "id": 745
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 38511499.24,
+    "owner": {
+      "id": 357
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 76897753.98,
+    "owner": {
+      "id": 589
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 24935869.31,
+    "owner": {
+      "id": 490
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 94738490.63,
+    "owner": {
+      "id": 306
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 31650127.76,
+    "owner": {
+      "id": 572
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 35249061.18,
+    "owner": {
+      "id": 267
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 68826629.22,
+    "owner": {
+      "id": 511
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 56783941.65,
+    "owner": {
+      "id": 656
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 78591055.53,
+    "owner": {
+      "id": 866
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 15431653.87,
+    "owner": {
+      "id": 537
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 48136415.62,
+    "owner": {
+      "id": 884
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 21095815.66,
+    "owner": {
+      "id": 985
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 67827549.24,
+    "owner": {
+      "id": 100
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 59545741.18,
+    "owner": {
+      "id": 248
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 26870367.74,
+    "owner": {
+      "id": 793
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 20955419.02,
+    "owner": {
+      "id": 898
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 19968845.92,
+    "owner": {
+      "id": 397
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 15210330.13,
+    "owner": {
+      "id": 65
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 26869017.87,
+    "owner": {
+      "id": 56
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 82176733.86,
+    "owner": {
+      "id": 716
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 47044017.45,
+    "owner": {
+      "id": 932
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 79906803.24,
+    "owner": {
+      "id": 812
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 62085999.33,
+    "owner": {
+      "id": 559
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 89602909.26,
+    "owner": {
+      "id": 396
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 8698877.06,
+    "owner": {
+      "id": 194
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 16132371.52,
+    "owner": {
+      "id": 482
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 24378083.35,
+    "owner": {
+      "id": 753
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 76565940.46,
+    "owner": {
+      "id": 590
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 793651.13,
+    "owner": {
+      "id": 729
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 53806600.22,
+    "owner": {
+      "id": 426
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 1744941.73,
+    "owner": {
+      "id": 83
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 82347724.79,
+    "owner": {
+      "id": 339
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 18541319.22,
+    "owner": {
+      "id": 56
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 71652539.23,
+    "owner": {
+      "id": 844
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 68689916.37,
+    "owner": {
+      "id": 230
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 68630665.06,
+    "owner": {
+      "id": 919
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 52092585.88,
+    "owner": {
+      "id": 173
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 23482172.1,
+    "owner": {
+      "id": 457
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 25050167.94,
+    "owner": {
+      "id": 762
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 11616417.74,
+    "owner": {
+      "id": 965
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 52660424.98,
+    "owner": {
+      "id": 931
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 61143633.66,
+    "owner": {
+      "id": 716
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 73540621.6,
+    "owner": {
+      "id": 128
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 98413625.46,
+    "owner": {
+      "id": 287
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 92411189.64,
+    "owner": {
+      "id": 815
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 52397078.49,
+    "owner": {
+      "id": 758
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 54713341.85,
+    "owner": {
+      "id": 666
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 48862747.19,
+    "owner": {
+      "id": 693
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 47650332.82,
+    "owner": {
+      "id": 362
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 39143539.93,
+    "owner": {
+      "id": 83
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 77039266.09,
+    "owner": {
+      "id": 582
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 67145253.8,
+    "owner": {
+      "id": 961
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 12229123.34,
+    "owner": {
+      "id": 139
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 66302656.71,
+    "owner": {
+      "id": 110
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 23776740.0,
+    "owner": {
+      "id": 438
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 27301841.86,
+    "owner": {
+      "id": 597
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 41084549.61,
+    "owner": {
+      "id": 117
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 13739273.04,
+    "owner": {
+      "id": 136
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 35649580.63,
+    "owner": {
+      "id": 636
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 44018328.7,
+    "owner": {
+      "id": 605
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 7239929.78,
+    "owner": {
+      "id": 244
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 30816465.99,
+    "owner": {
+      "id": 174
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 61040478.33,
+    "owner": {
+      "id": 417
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 43903359.67,
+    "owner": {
+      "id": 423
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 17206577.96,
+    "owner": {
+      "id": 180
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 32161660.26,
+    "owner": {
+      "id": 784
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 88221316.77,
+    "owner": {
+      "id": 728
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 8847162.11,
+    "owner": {
+      "id": 443
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 24410804.66,
+    "owner": {
+      "id": 578
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 29487204.43,
+    "owner": {
+      "id": 41
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 29529044.28,
+    "owner": {
+      "id": 524
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 86666944.56,
+    "owner": {
+      "id": 324
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 94049702.39,
+    "owner": {
+      "id": 651
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 90035209.04,
+    "owner": {
+      "id": 973
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 45074913.46,
+    "owner": {
+      "id": 734
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 57134633.8,
+    "owner": {
+      "id": 43
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 22083289.66,
+    "owner": {
+      "id": 223
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 4861236.08,
+    "owner": {
+      "id": 193
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 89628611.51,
+    "owner": {
+      "id": 276
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 11290325.95,
+    "owner": {
+      "id": 155
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 88718128.07,
+    "owner": {
+      "id": 696
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 13266688.52,
+    "owner": {
+      "id": 922
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 3632306.11,
+    "owner": {
+      "id": 767
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 15265540.42,
+    "owner": {
+      "id": 440
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 30073262.31,
+    "owner": {
+      "id": 963
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 48181701.32,
+    "owner": {
+      "id": 362
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 60958207.39,
+    "owner": {
+      "id": 242
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 15203864.25,
+    "owner": {
+      "id": 953
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 44736043.81,
+    "owner": {
+      "id": 542
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 36036020.57,
+    "owner": {
+      "id": 438
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 2954053.5,
+    "owner": {
+      "id": 803
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 95705154.3,
+    "owner": {
+      "id": 34
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 2395506.04,
+    "owner": {
+      "id": 4
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 61448153.61,
+    "owner": {
+      "id": 108
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 81506485.32,
+    "owner": {
+      "id": 199
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 46250110.44,
+    "owner": {
+      "id": 224
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 32383067.27,
+    "owner": {
+      "id": 249
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 17715449.52,
+    "owner": {
+      "id": 314
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 95542774.57,
+    "owner": {
+      "id": 719
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 18434347.12,
+    "owner": {
+      "id": 24
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 67568338.55,
+    "owner": {
+      "id": 418
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 14551439.37,
+    "owner": {
+      "id": 824
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 89376392.73,
+    "owner": {
+      "id": 134
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 13790865.36,
+    "owner": {
+      "id": 486
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 94331193.66,
+    "owner": {
+      "id": 888
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 17055774.57,
+    "owner": {
+      "id": 456
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 29299668.19,
+    "owner": {
+      "id": 901
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 19246084.39,
+    "owner": {
+      "id": 337
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 24052084.39,
+    "owner": {
+      "id": 943
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 59190740.89,
+    "owner": {
+      "id": 493
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 39195068.29,
+    "owner": {
+      "id": 880
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 23360975.1,
+    "owner": {
+      "id": 900
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 62139795.58,
+    "owner": {
+      "id": 526
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 21911371.01,
+    "owner": {
+      "id": 762
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 16465069.35,
+    "owner": {
+      "id": 940
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 45211346.15,
+    "owner": {
+      "id": 237
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 88616584.59,
+    "owner": {
+      "id": 985
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 6878728.32,
+    "owner": {
+      "id": 725
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 9837156.46,
+    "owner": {
+      "id": 826
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 66178594.95,
+    "owner": {
+      "id": 218
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 18610442.21,
+    "owner": {
+      "id": 594
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 69604286.38,
+    "owner": {
+      "id": 298
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 93493432.3,
+    "owner": {
+      "id": 864
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 31996204.82,
+    "owner": {
+      "id": 786
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 40341214.44,
+    "owner": {
+      "id": 890
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 86545800.47,
+    "owner": {
+      "id": 142
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 53131307.55,
+    "owner": {
+      "id": 843
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 48441407.05,
+    "owner": {
+      "id": 953
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 24342354.03,
+    "owner": {
+      "id": 865
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 47326411.84,
+    "owner": {
+      "id": 560
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 94046333.26,
+    "owner": {
+      "id": 749
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 55856128.15,
+    "owner": {
+      "id": 420
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 13182760.56,
+    "owner": {
+      "id": 876
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 27509879.13,
+    "owner": {
+      "id": 30
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 18776082.83,
+    "owner": {
+      "id": 121
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 46273803.77,
+    "owner": {
+      "id": 78
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 9243372.79,
+    "owner": {
+      "id": 127
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 69947968.89,
+    "owner": {
+      "id": 822
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 4181310.58,
+    "owner": {
+      "id": 21
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 56714003.55,
+    "owner": {
+      "id": 781
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 14712859.54,
+    "owner": {
+      "id": 138
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 43245224.64,
+    "owner": {
+      "id": 202
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 88784124.17,
+    "owner": {
+      "id": 220
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 84430010.45,
+    "owner": {
+      "id": 848
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 51132659.8,
+    "owner": {
+      "id": 397
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 15468930.38,
+    "owner": {
+      "id": 162
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 72687540.02,
+    "owner": {
+      "id": 832
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 58770339.09,
+    "owner": {
+      "id": 968
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 86490629.88,
+    "owner": {
+      "id": 141
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 98118031.22,
+    "owner": {
+      "id": 285
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 75906579.87,
+    "owner": {
+      "id": 669
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 76221862.23,
+    "owner": {
+      "id": 725
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 13667175.43,
+    "owner": {
+      "id": 657
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 88473249.88,
+    "owner": {
+      "id": 904
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 59911902.93,
+    "owner": {
+      "id": 793
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 37195559.19,
+    "owner": {
+      "id": 970
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 40456651.36,
+    "owner": {
+      "id": 540
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 83143558.68,
+    "owner": {
+      "id": 419
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 46494728.9,
+    "owner": {
+      "id": 918
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 50372619.97,
+    "owner": {
+      "id": 55
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 3502261.83,
+    "owner": {
+      "id": 240
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 18333174.23,
+    "owner": {
+      "id": 960
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 27635157.48,
+    "owner": {
+      "id": 984
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 65628135.81,
+    "owner": {
+      "id": 398
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 36760413.86,
+    "owner": {
+      "id": 313
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 75586134.59,
+    "owner": {
+      "id": 874
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 88591584.88,
+    "owner": {
+      "id": 282
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 45446323.13,
+    "owner": {
+      "id": 388
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 95412274.44,
+    "owner": {
+      "id": 760
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 98813264.71,
+    "owner": {
+      "id": 747
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 30276753.5,
+    "owner": {
+      "id": 219
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 60749394.03,
+    "owner": {
+      "id": 133
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 86322389.73,
+    "owner": {
+      "id": 116
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 85825063.64,
+    "owner": {
+      "id": 327
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 51568054.02,
+    "owner": {
+      "id": 895
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 41630872.48,
+    "owner": {
+      "id": 276
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 74728137.7,
+    "owner": {
+      "id": 300
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 3123115.61,
+    "owner": {
+      "id": 276
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 44624708.95,
+    "owner": {
+      "id": 302
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 36390403.22,
+    "owner": {
+      "id": 627
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 88105433.12,
+    "owner": {
+      "id": 328
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 98471339.3,
+    "owner": {
+      "id": 159
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 33934918.1,
+    "owner": {
+      "id": 159
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 20289055.3,
+    "owner": {
+      "id": 153
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 41304383.81,
+    "owner": {
+      "id": 783
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 61301144.82,
+    "owner": {
+      "id": 426
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 85278410.55,
+    "owner": {
+      "id": 356
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 3466007.34,
+    "owner": {
+      "id": 376
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 22519907.33,
+    "owner": {
+      "id": 195
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 77132914.09,
+    "owner": {
+      "id": 610
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 69581343.76,
+    "owner": {
+      "id": 952
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 93988920.33,
+    "owner": {
+      "id": 21
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 2835818.89,
+    "owner": {
+      "id": 981
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 36163459.1,
+    "owner": {
+      "id": 291
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 89600652.61,
+    "owner": {
+      "id": 311
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 80653281.57,
+    "owner": {
+      "id": 876
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 20188707.53,
+    "owner": {
+      "id": 239
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 97844030.48,
+    "owner": {
+      "id": 944
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 64640409.6,
+    "owner": {
+      "id": 198
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 85352531.8,
+    "owner": {
+      "id": 800
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 78161648.74,
+    "owner": {
+      "id": 40
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 88365026.26,
+    "owner": {
+      "id": 995
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 8691391.14,
+    "owner": {
+      "id": 942
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 60123758.46,
+    "owner": {
+      "id": 840
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 8454040.3,
+    "owner": {
+      "id": 239
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 51881168.1,
+    "owner": {
+      "id": 843
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 25586271.03,
+    "owner": {
+      "id": 985
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 15715468.97,
+    "owner": {
+      "id": 911
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 60902140.84,
+    "owner": {
+      "id": 752
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 4971833.22,
+    "owner": {
+      "id": 851
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 68422822.06,
+    "owner": {
+      "id": 653
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 80536669.92,
+    "owner": {
+      "id": 700
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 8561986.15,
+    "owner": {
+      "id": 782
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 57536859.28,
+    "owner": {
+      "id": 545
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 42841451.32,
+    "owner": {
+      "id": 293
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 71406356.39,
+    "owner": {
+      "id": 395
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 27998276.86,
+    "owner": {
+      "id": 674
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 12361223.67,
+    "owner": {
+      "id": 531
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 99645630.2,
+    "owner": {
+      "id": 924
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 18263710.49,
+    "owner": {
+      "id": 577
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 86019304.35,
+    "owner": {
+      "id": 482
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 55510052.06,
+    "owner": {
+      "id": 710
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 43227873.17,
+    "owner": {
+      "id": 727
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 38881592.36,
+    "owner": {
+      "id": 479
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 69696455.66,
+    "owner": {
+      "id": 243
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 58122197.18,
+    "owner": {
+      "id": 551
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 30131583.4,
+    "owner": {
+      "id": 92
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 98248899.85,
+    "owner": {
+      "id": 626
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 27518921.41,
+    "owner": {
+      "id": 65
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 51193299.74,
+    "owner": {
+      "id": 948
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 38169763.49,
+    "owner": {
+      "id": 468
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 719369.23,
+    "owner": {
+      "id": 175
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 50659403.39,
+    "owner": {
+      "id": 9
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 52137372.06,
+    "owner": {
+      "id": 631
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 58569753.8,
+    "owner": {
+      "id": 107
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 20139611.88,
+    "owner": {
+      "id": 997
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 49215646.19,
+    "owner": {
+      "id": 882
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 4998169.72,
+    "owner": {
+      "id": 510
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 63586813.26,
+    "owner": {
+      "id": 526
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 99200844.39,
+    "owner": {
+      "id": 869
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 99620720.03,
+    "owner": {
+      "id": 567
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 86770357.48,
+    "owner": {
+      "id": 730
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 58813999.66,
+    "owner": {
+      "id": 166
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 70117253.06,
+    "owner": {
+      "id": 510
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 59253921.22,
+    "owner": {
+      "id": 166
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 34825217.37,
+    "owner": {
+      "id": 932
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 91594231.52,
+    "owner": {
+      "id": 650
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 88619635.94,
+    "owner": {
+      "id": 45
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 35301933.91,
+    "owner": {
+      "id": 748
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 76553092.92,
+    "owner": {
+      "id": 603
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 31017560.85,
+    "owner": {
+      "id": 154
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 66817789.68,
+    "owner": {
+      "id": 86
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 42478628.75,
+    "owner": {
+      "id": 138
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 30502216.55,
+    "owner": {
+      "id": 262
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 751310.3,
+    "owner": {
+      "id": 228
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 81715335.58,
+    "owner": {
+      "id": 146
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 51407239.8,
+    "owner": {
+      "id": 388
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 33396814.77,
+    "owner": {
+      "id": 162
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 65562747.13,
+    "owner": {
+      "id": 485
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 32120268.32,
+    "owner": {
+      "id": 578
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 34181119.53,
+    "owner": {
+      "id": 396
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 16302440.59,
+    "owner": {
+      "id": 38
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 40590212.38,
+    "owner": {
+      "id": 161
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 42770680.28,
+    "owner": {
+      "id": 526
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 98898585.01,
+    "owner": {
+      "id": 282
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 73608649.36,
+    "owner": {
+      "id": 582
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 73040423.2,
+    "owner": {
+      "id": 284
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 60176022.52,
+    "owner": {
+      "id": 651
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 30702894.55,
+    "owner": {
+      "id": 498
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 13315414.42,
+    "owner": {
+      "id": 391
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 47324173.27,
+    "owner": {
+      "id": 204
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 43842963.68,
+    "owner": {
+      "id": 685
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 37190539.34,
+    "owner": {
+      "id": 773
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 55056964.66,
+    "owner": {
+      "id": 811
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 91016079.12,
+    "owner": {
+      "id": 216
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 39866846.74,
+    "owner": {
+      "id": 41
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 21160075.62,
+    "owner": {
+      "id": 765
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 57257299.43,
+    "owner": {
+      "id": 167
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 17406867.31,
+    "owner": {
+      "id": 465
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 37100390.23,
+    "owner": {
+      "id": 175
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 22374803.12,
+    "owner": {
+      "id": 24
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 88464313.66,
+    "owner": {
+      "id": 244
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 84057733.79,
+    "owner": {
+      "id": 336
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 61356310.4,
+    "owner": {
+      "id": 122
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 35295413.79,
+    "owner": {
+      "id": 129
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 45637118.3,
+    "owner": {
+      "id": 37
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 47371841.45,
+    "owner": {
+      "id": 160
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 3552575.53,
+    "owner": {
+      "id": 409
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 66374722.43,
+    "owner": {
+      "id": 360
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 34233956.21,
+    "owner": {
+      "id": 194
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 13956804.64,
+    "owner": {
+      "id": 350
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 98277910.3,
+    "owner": {
+      "id": 890
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 66037386.38,
+    "owner": {
+      "id": 802
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 88611743.97,
+    "owner": {
+      "id": 222
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 55340642.75,
+    "owner": {
+      "id": 84
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 69156372.24,
+    "owner": {
+      "id": 561
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 47078248.64,
+    "owner": {
+      "id": 133
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 8614523.71,
+    "owner": {
+      "id": 609
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 38731309.05,
+    "owner": {
+      "id": 914
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 68698597.95,
+    "owner": {
+      "id": 958
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 26777598.51,
+    "owner": {
+      "id": 53
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 81989683.36,
+    "owner": {
+      "id": 983
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 63972291.41,
+    "owner": {
+      "id": 804
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 83155164.53,
+    "owner": {
+      "id": 736
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 3953222.12,
+    "owner": {
+      "id": 751
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 68629537.72,
+    "owner": {
+      "id": 843
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 59201968.02,
+    "owner": {
+      "id": 300
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 3195381.85,
+    "owner": {
+      "id": 960
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 46370760.05,
+    "owner": {
+      "id": 690
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 43367782.38,
+    "owner": {
+      "id": 420
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 66542235.26,
+    "owner": {
+      "id": 438
+    },
+    "transactions": null
+  },
+  {
+    "type": "CREDIT",
+    "balance": 45123840.32,
+    "owner": {
+      "id": 63
+    },
+    "transactions": null
+  },
+  {
+    "type": "DEBIT",
+    "balance": 85495803.41,
+    "owner": {
+      "id": 90
+    },
+    "transactions": null
+  }
+]

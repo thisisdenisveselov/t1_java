@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 import ru.t1.java.demo.dto.ClientDto;
 import ru.t1.java.demo.model.Client;
 import ru.t1.java.demo.repository.ClientRepository;
-import ru.t1.java.demo.util.ClientMapper;
+import ru.t1.java.demo.util.mapper.ClientMapper;
 
 import java.util.HashMap;
 import java.util.Map;

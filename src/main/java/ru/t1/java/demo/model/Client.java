@@ -1,10 +1,10 @@
 package ru.t1.java.demo.model;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.Table;
+import jakarta.persistence.*;
 import lombok.*;
 import org.springframework.data.jpa.domain.AbstractPersistable;
+
+import java.util.List;
 
 @Getter
 @Setter
@@ -15,6 +15,8 @@ import org.springframework.data.jpa.domain.AbstractPersistable;
 @Table(name = "client")
 public class Client extends AbstractPersistable<Long> {
 
+    private Long id;
+
     @Column(name = "first_name")
     private String firstName;
 
@@ -24,4 +26,6 @@ public class Client extends AbstractPersistable<Long> {
     @Column(name = "middle_name")
     private String middleName;
 
+    @OneToMany(mappedBy = "owner")
+    private List<Account> accounts;
 }

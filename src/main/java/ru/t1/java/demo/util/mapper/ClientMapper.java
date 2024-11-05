@@ -1,4 +1,4 @@
-package ru.t1.java.demo.util;
+package ru.t1.java.demo.util.mapper;
 
 import org.springframework.stereotype.Component;
 import ru.t1.java.demo.dto.ClientDto;
@@ -12,6 +12,7 @@ public class ClientMapper {
 //            throw new NullPointerException();
         }
         return Client.builder()
+                .id(dto.getId())
                 .firstName(dto.getFirstName())
                 .lastName(dto.getLastName())
                 .middleName(dto.getMiddleName())

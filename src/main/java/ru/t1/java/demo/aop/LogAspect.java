@@ -8,7 +8,10 @@ import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
 import org.springframework.util.CollectionUtils;
 import ru.t1.java.demo.model.Client;
+import ru.t1.java.demo.model.DataSourceErrorLog;
+import ru.t1.java.demo.service.DataSourceErrorLogService;
 
+import java.util.Arrays;
 import java.util.List;
 
 import static java.util.Objects.isNull;
@@ -18,6 +21,11 @@ import static java.util.Objects.isNull;
 @Component
 @Order(0)
 public class LogAspect {
+    private final DataSourceErrorLogService dataSourceErrorLogService;
+
+    public LogAspect(DataSourceErrorLogService dataSourceErrorLogService) {
+        this.dataSourceErrorLogService = dataSourceErrorLogService;
+    }
 
     @Pointcut("within(ru.t1.java.demo.*)")
     public void loggingMethods() {
@@ -53,4 +61,12 @@ public class LogAspect {
 
     }
 
+    @AfterThrowing(pointcut = "@annotation(LogDataSourceError)", throwing = "exception")
+    public void logDataSourceError(JoinPoint joinPoint, Throwable exception) {
+        dataSourceErrorLogService.createLog(DataSourceErrorLog.builder()
+                .message(exception.getMessage())
+                .methodSignature(joinPoint.getSignature().toString())
+                .stackTraceText(Arrays.toString(exception.getStackTrace()))
+                .build());
+    }
 }
