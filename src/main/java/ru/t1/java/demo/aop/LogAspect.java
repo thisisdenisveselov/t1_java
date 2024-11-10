@@ -63,10 +63,14 @@ public class LogAspect {
 
     @AfterThrowing(pointcut = "@annotation(LogDataSourceError)", throwing = "exception")
     public void logDataSourceError(JoinPoint joinPoint, Throwable exception) {
-        dataSourceErrorLogService.createLog(DataSourceErrorLog.builder()
-                .message(exception.getMessage())
-                .methodSignature(joinPoint.getSignature().toString())
-                .stackTraceText(Arrays.toString(exception.getStackTrace()))
-                .build());
+        try {
+            //send to topic t1_demo_metrics
+        } catch (Throwable throwable) {
+            dataSourceErrorLogService.createLog(DataSourceErrorLog.builder()
+                    .message(exception.getMessage())
+                    .methodSignature(joinPoint.getSignature().toString())
+                    .stackTraceText(Arrays.toString(exception.getStackTrace()))
+                    .build());
+        }
     }
 }

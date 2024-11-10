@@ -3,7 +3,7 @@ package ru.t1.java.demo.controller;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;
-import ru.t1.java.demo.dto.TransactionDto;
+import ru.t1.java.demo.model.dto.TransactionDto;
 import ru.t1.java.demo.service.TransactionService;
 import ru.t1.java.demo.util.mapper.TransactionMapper;
 
