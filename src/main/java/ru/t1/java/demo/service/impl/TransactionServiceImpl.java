@@ -8,6 +8,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.annotation.DependsOn;
 import org.springframework.stereotype.Service;
 import ru.t1.java.demo.aop.LogDataSourceError;
+import ru.t1.java.demo.aop.Metric;
 import ru.t1.java.demo.model.dto.TransactionDto;
 import ru.t1.java.demo.exception.EntityNotFoundException;
 import ru.t1.java.demo.model.Account;
@@ -79,6 +80,7 @@ public class TransactionServiceImpl implements TransactionService {
 
     @Override
     @LogDataSourceError
+    @Metric(1)
     public Transaction createTransaction(Transaction transaction) {
         Account account = accountService.getAccount(transaction.getAccount().getId());
         transaction.setAccount(account);

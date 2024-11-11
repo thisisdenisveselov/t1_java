@@ -20,9 +20,12 @@ import org.springframework.kafka.support.serializer.ErrorHandlingDeserializer;
 import org.springframework.kafka.support.serializer.JsonDeserializer;
 import org.springframework.kafka.support.serializer.JsonSerializer;
 import org.springframework.util.backoff.FixedBackOff;
-import ru.t1.java.demo.kafka.KafkaClientProducer;
+import ru.t1.java.demo.kafka.ClientProducer;
+import ru.t1.java.demo.kafka.DataSourceErrorLogProducer;
 import ru.t1.java.demo.kafka.MessageDeserializer;
+import ru.t1.java.demo.kafka.MetricsProducer;
 import ru.t1.java.demo.model.dto.ClientDto;
+import ru.t1.java.demo.model.dto.DataSourceErrorLogDto;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -45,6 +48,8 @@ public class DemoKafkaConfig<T> {
     private String maxPollIntervalsMs;
     @Value("${t1.kafka.topic.client_id_registered}")
     private String clientTopic;
+    @Value("${t1.kafka.topic.metrics}")
+    private String metricsTopic;
 
 
     @Bean
@@ -108,9 +113,9 @@ public class DemoKafkaConfig<T> {
     @ConditionalOnProperty(value = "t1.kafka.producer.enable",
             havingValue = "true",
             matchIfMissing = true)
-    public KafkaClientProducer producerClient(@Qualifier("client") KafkaTemplate<String, ClientDto> template) {
+    public ClientProducer producerClient(@Qualifier("client") KafkaTemplate<String, ClientDto> template) {
         template.setDefaultTopic(clientTopic);
-        return new KafkaClientProducer(template);
+        return new ClientProducer(template);
     }
 
     @Bean("producerClientFactory")
@@ -119,6 +124,58 @@ public class DemoKafkaConfig<T> {
         props.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, servers);
         props.put(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG, StringSerializer.class);
         props.put(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG, JsonSerializer.class);
+        props.put(ProducerConfig.RETRIES_CONFIG, 3);
+        props.put(ProducerConfig.RETRY_BACKOFF_MS_CONFIG, 1000);
+        props.put(ProducerConfig.ENABLE_IDEMPOTENCE_CONFIG, false);
+        return new DefaultKafkaProducerFactory<>(props);
+    }
+
+    @Bean("dataSourceErrorLog")
+    public KafkaTemplate<String, DataSourceErrorLogDto> kafkaDataSourceTemplate(@Qualifier("producerDataSourceFactory") ProducerFactory<String, DataSourceErrorLogDto> producerPatFactory) {
+        return new KafkaTemplate<>(producerPatFactory);
+    }
+
+    @Bean
+    @ConditionalOnProperty(value = "t1.kafka.producer.enable",
+            havingValue = "true",
+            matchIfMissing = true)
+    public DataSourceErrorLogProducer producerDataSource(@Qualifier("dataSourceErrorLog") KafkaTemplate<String, DataSourceErrorLogDto> template) {
+        template.setDefaultTopic(metricsTopic);
+        return new DataSourceErrorLogProducer(template);
+    }
+
+    @Bean("producerDataSourceFactory")
+    public ProducerFactory<String, T> producerDataSourceFactory() {
+        Map<String, Object> props = new HashMap<>();
+        props.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, servers);
+        props.put(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG, StringSerializer.class);
+        props.put(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG, JsonSerializer.class);
+        props.put(ProducerConfig.RETRIES_CONFIG, 3);
+        props.put(ProducerConfig.RETRY_BACKOFF_MS_CONFIG, 1000);
+        props.put(ProducerConfig.ENABLE_IDEMPOTENCE_CONFIG, false);
+        return new DefaultKafkaProducerFactory<>(props);
+    }
+
+    @Bean("metrics")
+    public KafkaTemplate<String, String> kafkaMetricsTemplate(@Qualifier("producerMetricsFactory") ProducerFactory<String, String> producerPatFactory) {
+        return new KafkaTemplate<>(producerPatFactory);
+    }
+
+    @Bean
+    @ConditionalOnProperty(value = "t1.kafka.producer.enable",
+            havingValue = "true",
+            matchIfMissing = true)
+    public MetricsProducer producerMetrics(@Qualifier("metrics") KafkaTemplate<String, String> template) {
+        template.setDefaultTopic(metricsTopic);
+        return new MetricsProducer(template);
+    }
+
+    @Bean("producerMetricsFactory")
+    public ProducerFactory<String, T> producerMetricsFactory() {
+        Map<String, Object> props = new HashMap<>();
+        props.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, servers);
+        props.put(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG, StringSerializer.class);
+        props.put(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG, StringSerializer.class);
         props.put(ProducerConfig.RETRIES_CONFIG, 3);
         props.put(ProducerConfig.RETRY_BACKOFF_MS_CONFIG, 1000);
         props.put(ProducerConfig.ENABLE_IDEMPOTENCE_CONFIG, false);

@@ -1,15 +1,18 @@
 package ru.t1.java.demo.aop;
 
 import lombok.extern.slf4j.Slf4j;
+import org.apache.kafka.common.protocol.types.Field;
 import org.aspectj.lang.JoinPoint;
-import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.*;
 import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
-import org.springframework.util.CollectionUtils;
+import ru.t1.java.demo.kafka.DataSourceErrorLogProducer;
+import ru.t1.java.demo.kafka.MetricsProducer;
 import ru.t1.java.demo.model.Client;
 import ru.t1.java.demo.model.DataSourceErrorLog;
 import ru.t1.java.demo.service.DataSourceErrorLogService;
+import ru.t1.java.demo.util.mapper.AccountMapper;
+import ru.t1.java.demo.util.mapper.DataSourceErrorLogMapper;
 
 import java.util.Arrays;
 import java.util.List;
@@ -22,9 +25,12 @@ import static java.util.Objects.isNull;
 @Order(0)
 public class LogAspect {
     private final DataSourceErrorLogService dataSourceErrorLogService;
+    private final DataSourceErrorLogProducer dataSourceErrorLogProducer;
+    private static final String HEADER_VALUE_DATA_SOURCE = "DATA_SOURCE";
 
-    public LogAspect(DataSourceErrorLogService dataSourceErrorLogService) {
+    public LogAspect(DataSourceErrorLogService dataSourceErrorLogService, DataSourceErrorLogProducer dataSourceErrorLogProducer) {
         this.dataSourceErrorLogService = dataSourceErrorLogService;
+        this.dataSourceErrorLogProducer = dataSourceErrorLogProducer;
     }
 
     @Pointcut("within(ru.t1.java.demo.*)")
@@ -63,14 +69,20 @@ public class LogAspect {
 
     @AfterThrowing(pointcut = "@annotation(LogDataSourceError)", throwing = "exception")
     public void logDataSourceError(JoinPoint joinPoint, Throwable exception) {
+        log.info("ASPECT AFTER_THROWING ANNOTATION: Call method: {}", joinPoint.getSignature().getName());
+        DataSourceErrorLog errorLog = DataSourceErrorLog.builder()
+                .message(exception.getMessage())
+                .methodSignature(joinPoint.getSignature().toString())
+                .stackTraceText(Arrays.toString(exception.getStackTrace()))
+                .build();
         try {
-            //send to topic t1_demo_metrics
+            dataSourceErrorLogProducer.send(DataSourceErrorLogMapper.toDto(errorLog), HEADER_VALUE_DATA_SOURCE);
         } catch (Throwable throwable) {
-            dataSourceErrorLogService.createLog(DataSourceErrorLog.builder()
-                    .message(exception.getMessage())
-                    .methodSignature(joinPoint.getSignature().toString())
-                    .stackTraceText(Arrays.toString(exception.getStackTrace()))
-                    .build());
+            try {
+                dataSourceErrorLogService.createLog(errorLog);
+            } finally {
+                log.error("Error while saving DataSourceErrorLog record: {}", errorLog.toString());
+            }
         }
     }
 }

@@ -6,7 +6,7 @@ import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import ru.t1.java.demo.aop.LogDataSourceError;
-import ru.t1.java.demo.kafka.KafkaClientProducer;
+import ru.t1.java.demo.kafka.ClientProducer;
 import ru.t1.java.demo.model.dto.CheckResponse;
 import ru.t1.java.demo.model.dto.ClientDto;
 import ru.t1.java.demo.exception.EntityNotFoundException;
@@ -30,7 +30,7 @@ import java.util.stream.Collectors;
 public class ClientServiceImpl implements ClientService {
 
     private final ClientRepository repository;
-    private final KafkaClientProducer kafkaClientProducer;
+    private final ClientProducer clientProducer;
         private final CheckWebClient checkWebClient;
 
     @PostConstruct
@@ -74,7 +74,7 @@ public class ClientServiceImpl implements ClientService {
             check.ifPresent(checkResponse -> {
                 if (!checkResponse.getBlocked()) {
                     Client saved = repository.save(client);
-                    kafkaClientProducer.send(saved.getId());
+                    clientProducer.send(saved.getId());
                     savedClients.add(saved);
                 }
             });
@@ -86,14 +86,16 @@ public class ClientServiceImpl implements ClientService {
 
     @Override
     public Client registerClient(Client client) {
-        Client saved = null;
+        /*Client saved = null;
         Optional<CheckResponse> check = checkWebClient.check(client.getId());
         if (check.isPresent()) {
             if (!check.get().getBlocked()) {
                 saved = repository.save(client);
                 kafkaClientProducer.send(client.getId());
             }
-        }
+        }*/
+        Client saved = repository.save(client);
+        clientProducer.send(client.getId());
         return saved;
     }
     @Override

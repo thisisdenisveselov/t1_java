@@ -10,21 +10,21 @@ import org.springframework.messaging.handler.annotation.Payload;
 import org.springframework.stereotype.Component;
 import ru.t1.java.demo.model.Client;
 import ru.t1.java.demo.model.dto.ClientDto;
+import ru.t1.java.demo.service.AccountService;
 import ru.t1.java.demo.service.ClientService;
 import ru.t1.java.demo.util.mapper.ClientMapper;
-
 
 import java.util.List;
 
 @Slf4j
 @RequiredArgsConstructor
 @Component
-public class KafkaClientConsumer {
+public class AccountConsumer {
 
-    private final ClientService clientService;
+    private final AccountService accountService;
 
-    @KafkaListener(id = "${t1.kafka.consumer.group-id}",
-            topics = "${t1.kafka.topic.client_registration}",
+    @KafkaListener(id = "${t1.kafka.consumer.account-id}",
+            topics = "${t1.kafka.topic.accounts}",
             containerFactory = "kafkaListenerContainerFactory")
     public void listener(@Payload List<ClientDto> messageList,
                          Acknowledgment ack,
@@ -39,7 +39,7 @@ public class KafkaClientConsumer {
                         return ClientMapper.toEntity(dto);
                     })
                     .toList();
-            clientService.registerClients(clients);
+            accountService.registerClients(clients);
         } finally {
             ack.acknowledge();
         }
