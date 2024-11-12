@@ -1,4 +1,4 @@
-package ru.t1.java.demo.kafka;
+package ru.t1.java.demo.kafka.consumer;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -7,14 +7,10 @@ import org.springframework.kafka.support.Acknowledgment;
 import org.springframework.kafka.support.KafkaHeaders;
 import org.springframework.messaging.handler.annotation.Header;
 import org.springframework.stereotype.Component;
-import ru.t1.java.demo.model.Account;
 import ru.t1.java.demo.model.Transaction;
-import ru.t1.java.demo.model.dto.AccountDto;
 import ru.t1.java.demo.model.dto.TransactionDto;
-import ru.t1.java.demo.service.AccountService;
 import ru.t1.java.demo.service.TransactionService;
-import ru.t1.java.demo.util.mapper.AccountMapper;
-import ru.t1.java.demo.util.mapper.TransactionMapper;
+import ru.t1.java.demo.util.TransactionMapper;
 
 @Slf4j
 @RequiredArgsConstructor

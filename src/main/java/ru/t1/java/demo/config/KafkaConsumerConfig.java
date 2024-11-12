@@ -1,17 +1,12 @@
 package ru.t1.java.demo.config;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.kafka.clients.consumer.ConsumerConfig;
-import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.common.serialization.StringDeserializer;
-import org.apache.kafka.common.serialization.StringSerializer;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.Primary;
 import org.springframework.kafka.annotation.EnableKafka;
 import org.springframework.kafka.config.ConcurrentKafkaListenerContainerFactory;
 import org.springframework.kafka.core.*;
@@ -20,15 +15,10 @@ import org.springframework.kafka.listener.ContainerProperties;
 import org.springframework.kafka.listener.DefaultErrorHandler;
 import org.springframework.kafka.support.serializer.ErrorHandlingDeserializer;
 import org.springframework.kafka.support.serializer.JsonDeserializer;
-import org.springframework.kafka.support.serializer.JsonSerializer;
 import org.springframework.util.backoff.FixedBackOff;
-import ru.t1.java.demo.kafka.ClientProducer;
-import ru.t1.java.demo.kafka.DataSourceErrorLogProducer;
 import ru.t1.java.demo.kafka.MessageDeserializer;
-import ru.t1.java.demo.kafka.MetricsProducer;
 import ru.t1.java.demo.model.dto.AccountDto;
 import ru.t1.java.demo.model.dto.ClientDto;
-import ru.t1.java.demo.model.dto.DataSourceErrorLogDto;
 import ru.t1.java.demo.model.dto.TransactionDto;
 
 import java.util.HashMap;
@@ -37,12 +27,10 @@ import java.util.Map;
 @Slf4j
 @Configuration
 @EnableKafka
-public class DemoKafkaConfig<T> {
+public class KafkaConsumerConfig<T> {
 
     @Value("${t1.kafka.consumer.group-id}")
     private String groupId;
-    @Value("${t1.kafka.consumer.account-id}")
-    private String accountGroupId;
     @Value("${t1.kafka.bootstrap.server}")
     private String servers;
     @Value("${t1.kafka.session.timeout.ms:15000}")
@@ -53,12 +41,8 @@ public class DemoKafkaConfig<T> {
     private String maxPollRecords;
     @Value("${t1.kafka.max.poll.interval.ms:3000}")
     private String maxPollIntervalsMs;
-    @Value("${t1.kafka.topic.client_id_registered}")
-    private String clientTopic;
-    @Value("${t1.kafka.topic.metrics}")
-    private String metricsTopic;
 
-    // Client Consumer config
+    // Client config
     @Bean
     public ConsumerFactory<String, ClientDto> consumerListenerFactory() {
         Map<String, Object> props = new HashMap<>();
@@ -101,7 +85,7 @@ public class DemoKafkaConfig<T> {
         factory.setCommonErrorHandler(errorHandler());
     }
 
-    // Account Consumer config
+    // Account config
     @Bean
     public ConsumerFactory<String, AccountDto> consumerAccountListenerFactory() {
         Map<String, Object> props = new HashMap<>();
@@ -134,7 +118,7 @@ public class DemoKafkaConfig<T> {
         return factory;
     }
 
-    //Transaction Consumer config
+    //Transaction config
     @Bean
     public ConsumerFactory<String, TransactionDto> consumerTransactionListenerFactory() {
         Map<String, Object> props = new HashMap<>();
@@ -167,7 +151,7 @@ public class DemoKafkaConfig<T> {
         return factory;
     }
 
-
+    //Error handling
 
     private CommonErrorHandler errorHandler() {
         DefaultErrorHandler handler = new DefaultErrorHandler(new FixedBackOff(1000, 3));
@@ -176,88 +160,6 @@ public class DemoKafkaConfig<T> {
             log.error(" RetryListeners message = {}, offset = {} deliveryAttempt = {}", ex.getMessage(), record.offset(), deliveryAttempt);
         });
         return handler;
-    }
-
-    // Client Producer config
-    @Bean("client")
-    @Primary
-    public KafkaTemplate<String, T> kafkaClientTemplate(@Qualifier("producerClientFactory") ProducerFactory<String, T> producerPatFactory) {
-        return new KafkaTemplate<>(producerPatFactory);
-    }
-
-    @Bean
-    @ConditionalOnProperty(value = "t1.kafka.producer.enable",
-            havingValue = "true",
-            matchIfMissing = true)
-    public ClientProducer producerClient(@Qualifier("client") KafkaTemplate<String, ClientDto> template) {
-        template.setDefaultTopic(clientTopic);
-        return new ClientProducer(template);
-    }
-
-    @Bean("producerClientFactory")
-    public ProducerFactory<String, T> producerClientFactory() {
-        Map<String, Object> props = new HashMap<>();
-        props.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, servers);
-        props.put(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG, StringSerializer.class);
-        props.put(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG, JsonSerializer.class);
-        props.put(ProducerConfig.RETRIES_CONFIG, 3);
-        props.put(ProducerConfig.RETRY_BACKOFF_MS_CONFIG, 1000);
-        props.put(ProducerConfig.ENABLE_IDEMPOTENCE_CONFIG, false);
-        return new DefaultKafkaProducerFactory<>(props);
-    }
-
-    // DataSourceErrorLog Producer config
-    @Bean("dataSourceErrorLog")
-    public KafkaTemplate<String, DataSourceErrorLogDto> kafkaDataSourceTemplate(@Qualifier("producerDataSourceFactory") ProducerFactory<String, DataSourceErrorLogDto> producerPatFactory) {
-        return new KafkaTemplate<>(producerPatFactory);
-    }
-
-    @Bean
-    @ConditionalOnProperty(value = "t1.kafka.producer.enable",
-            havingValue = "true",
-            matchIfMissing = true)
-    public DataSourceErrorLogProducer producerDataSource(@Qualifier("dataSourceErrorLog") KafkaTemplate<String, DataSourceErrorLogDto> template) {
-        template.setDefaultTopic(metricsTopic);
-        return new DataSourceErrorLogProducer(template);
-    }
-
-    @Bean("producerDataSourceFactory")
-    public ProducerFactory<String, T> producerDataSourceFactory() {
-        Map<String, Object> props = new HashMap<>();
-        props.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, servers);
-        props.put(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG, StringSerializer.class);
-        props.put(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG, JsonSerializer.class);
-        props.put(ProducerConfig.RETRIES_CONFIG, 3);
-        props.put(ProducerConfig.RETRY_BACKOFF_MS_CONFIG, 1000);
-        props.put(ProducerConfig.ENABLE_IDEMPOTENCE_CONFIG, false);
-        return new DefaultKafkaProducerFactory<>(props);
-    }
-
-    // Metrics Producer config
-    @Bean("metrics")
-    public KafkaTemplate<String, String> kafkaMetricsTemplate(@Qualifier("producerMetricsFactory") ProducerFactory<String, String> producerPatFactory) {
-        return new KafkaTemplate<>(producerPatFactory);
-    }
-
-    @Bean
-    @ConditionalOnProperty(value = "t1.kafka.producer.enable",
-            havingValue = "true",
-            matchIfMissing = true)
-    public MetricsProducer producerMetrics(@Qualifier("metrics") KafkaTemplate<String, String> template) {
-        template.setDefaultTopic(metricsTopic);
-        return new MetricsProducer(template);
-    }
-
-    @Bean("producerMetricsFactory")
-    public ProducerFactory<String, T> producerMetricsFactory() {
-        Map<String, Object> props = new HashMap<>();
-        props.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, servers);
-        props.put(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG, StringSerializer.class);
-        props.put(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG, StringSerializer.class);
-        props.put(ProducerConfig.RETRIES_CONFIG, 3);
-        props.put(ProducerConfig.RETRY_BACKOFF_MS_CONFIG, 1000);
-        props.put(ProducerConfig.ENABLE_IDEMPOTENCE_CONFIG, false);
-        return new DefaultKafkaProducerFactory<>(props);
     }
 
 }

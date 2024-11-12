@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.*;
 import ru.t1.java.demo.model.dto.AccountDto;
 import ru.t1.java.demo.model.Account;
 import ru.t1.java.demo.service.AccountService;
-import ru.t1.java.demo.util.mapper.AccountMapper;
+import ru.t1.java.demo.util.AccountMapper;
 
 import java.util.List;
 

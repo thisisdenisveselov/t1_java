@@ -2,7 +2,7 @@ package ru.t1.java.demo.model;
 
 import jakarta.persistence.*;
 import lombok.*;
-import ru.t1.java.demo.util.AccountType;
+import ru.t1.java.demo.model.enums.AccountType;
 
 import java.math.BigDecimal;
 import java.util.List;

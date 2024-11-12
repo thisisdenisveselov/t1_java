@@ -7,7 +7,6 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.annotation.DependsOn;
 import org.springframework.stereotype.Service;
 import ru.t1.java.demo.aop.LogDataSourceError;
-import ru.t1.java.demo.aop.Metric;
 import ru.t1.java.demo.model.dto.AccountDto;
 import ru.t1.java.demo.exception.EntityNotFoundException;
 import ru.t1.java.demo.model.Account;
@@ -15,7 +14,7 @@ import ru.t1.java.demo.model.Client;
 import ru.t1.java.demo.repository.AccountRepository;
 import ru.t1.java.demo.service.AccountService;
 import ru.t1.java.demo.service.ClientService;
-import ru.t1.java.demo.util.mapper.AccountMapper;
+import ru.t1.java.demo.util.AccountMapper;
 
 import java.io.File;
 import java.io.IOException;

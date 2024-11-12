@@ -6,13 +6,13 @@ import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import ru.t1.java.demo.aop.LogDataSourceError;
-import ru.t1.java.demo.kafka.ClientProducer;
+import ru.t1.java.demo.kafka.producer.ClientProducer;
 import ru.t1.java.demo.model.dto.ClientDto;
 import ru.t1.java.demo.exception.EntityNotFoundException;
 import ru.t1.java.demo.model.Client;
 import ru.t1.java.demo.repository.ClientRepository;
 import ru.t1.java.demo.service.ClientService;
-import ru.t1.java.demo.util.mapper.ClientMapper;
+import ru.t1.java.demo.util.ClientMapper;
 
 import java.io.File;
 import java.io.IOException;

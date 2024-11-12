@@ -5,12 +5,10 @@ import lombok.extern.slf4j.Slf4j;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.*;
 import org.aspectj.lang.reflect.MethodSignature;
-import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Component;
-import ru.t1.java.demo.kafka.MetricsProducer;
+import ru.t1.java.demo.kafka.producer.MetricsProducer;
 
 import java.util.Arrays;
-import java.util.concurrent.CompletableFuture;
 import java.util.stream.Collectors;
 
 @Slf4j

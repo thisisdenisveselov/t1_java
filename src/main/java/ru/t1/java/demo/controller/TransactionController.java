@@ -5,7 +5,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;
 import ru.t1.java.demo.model.dto.TransactionDto;
 import ru.t1.java.demo.service.TransactionService;
-import ru.t1.java.demo.util.mapper.TransactionMapper;
+import ru.t1.java.demo.util.TransactionMapper;
 
 import java.util.List;
 

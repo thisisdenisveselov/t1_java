@@ -1,4 +1,4 @@
-package ru.t1.java.demo.util.mapper;
+package ru.t1.java.demo.util;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;

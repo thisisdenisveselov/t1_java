@@ -16,7 +16,7 @@ import ru.t1.java.demo.model.Transaction;
 import ru.t1.java.demo.repository.TransactionRepository;
 import ru.t1.java.demo.service.AccountService;
 import ru.t1.java.demo.service.TransactionService;
-import ru.t1.java.demo.util.mapper.TransactionMapper;
+import ru.t1.java.demo.util.TransactionMapper;
 
 import java.io.File;
 import java.io.IOException;

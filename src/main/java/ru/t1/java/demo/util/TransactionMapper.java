@@ -1,4 +1,4 @@
-package ru.t1.java.demo.util.mapper;
+package ru.t1.java.demo.util;
 
 import org.springframework.stereotype.Component;
 import ru.t1.java.demo.model.dto.TransactionDto;

@@ -13,7 +13,7 @@ import ru.t1.java.demo.exception.ClientException;
 import ru.t1.java.demo.model.Client;
 import ru.t1.java.demo.model.dto.ClientDto;
 import ru.t1.java.demo.service.ClientService;
-import ru.t1.java.demo.util.mapper.ClientMapper;
+import ru.t1.java.demo.util.ClientMapper;
 
 import java.io.IOException;
 

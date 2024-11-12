@@ -1,18 +1,15 @@
 package ru.t1.java.demo.aop;
 
 import lombok.extern.slf4j.Slf4j;
-import org.apache.kafka.common.protocol.types.Field;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.*;
 import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
-import ru.t1.java.demo.kafka.DataSourceErrorLogProducer;
-import ru.t1.java.demo.kafka.MetricsProducer;
+import ru.t1.java.demo.kafka.producer.DataSourceErrorLogProducer;
 import ru.t1.java.demo.model.Client;
 import ru.t1.java.demo.model.DataSourceErrorLog;
 import ru.t1.java.demo.service.DataSourceErrorLogService;
-import ru.t1.java.demo.util.mapper.AccountMapper;
-import ru.t1.java.demo.util.mapper.DataSourceErrorLogMapper;
+import ru.t1.java.demo.util.DataSourceErrorLogMapper;
 
 import java.util.Arrays;
 import java.util.List;

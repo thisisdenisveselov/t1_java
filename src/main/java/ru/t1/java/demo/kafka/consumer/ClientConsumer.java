@@ -1,4 +1,4 @@
-package ru.t1.java.demo.kafka;
+package ru.t1.java.demo.kafka.consumer;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
 import ru.t1.java.demo.model.Client;
 import ru.t1.java.demo.model.dto.ClientDto;
 import ru.t1.java.demo.service.ClientService;
-import ru.t1.java.demo.util.mapper.ClientMapper;
+import ru.t1.java.demo.util.ClientMapper;
 
 
 import java.util.List;

@@ -13,7 +13,7 @@ spring:
 logging:
   level:
     ROOT: INFO
-    ru.t1.java.demo.kafka.AccountConsumer: DEBUG
+    ru.t1.java.demo.kafka.ru.t1.java.demo.kafka.consumer.AccountConsumer: DEBUG
     #ru.t1.java.demo.controller.ClientController: DEBUG
 
 t1:
