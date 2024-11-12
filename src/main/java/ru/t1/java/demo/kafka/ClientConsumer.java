@@ -23,7 +23,7 @@ public class ClientConsumer {
 
     private final ClientService clientService;
 
-    @KafkaListener(id = "${t1.kafka.consumer.group-id}",
+    @KafkaListener(groupId = "${t1.kafka.consumer.group-id}",
             topics = "${t1.kafka.topic.client_registration}",
             containerFactory = "kafkaListenerContainerFactory")
     public void listener(@Payload List<ClientDto> messageList,
@@ -31,7 +31,6 @@ public class ClientConsumer {
                          @Header(KafkaHeaders.RECEIVED_TOPIC) String topic,
                          @Header(KafkaHeaders.RECEIVED_KEY) String key) {
         log.debug("Client consumer: Обработка новых сообщений");
-
         try {
             List<Client> clients = messageList.stream()
                     .map(dto -> {

@@ -1,5 +1,6 @@
 package ru.t1.java.demo.config;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.clients.producer.ProducerConfig;
@@ -11,6 +12,7 @@ import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;
+import org.springframework.kafka.annotation.EnableKafka;
 import org.springframework.kafka.config.ConcurrentKafkaListenerContainerFactory;
 import org.springframework.kafka.core.*;
 import org.springframework.kafka.listener.CommonErrorHandler;
@@ -24,18 +26,23 @@ import ru.t1.java.demo.kafka.ClientProducer;
 import ru.t1.java.demo.kafka.DataSourceErrorLogProducer;
 import ru.t1.java.demo.kafka.MessageDeserializer;
 import ru.t1.java.demo.kafka.MetricsProducer;
+import ru.t1.java.demo.model.dto.AccountDto;
 import ru.t1.java.demo.model.dto.ClientDto;
 import ru.t1.java.demo.model.dto.DataSourceErrorLogDto;
+import ru.t1.java.demo.model.dto.TransactionDto;
 
 import java.util.HashMap;
 import java.util.Map;
 
 @Slf4j
 @Configuration
+@EnableKafka
 public class DemoKafkaConfig<T> {
 
     @Value("${t1.kafka.consumer.group-id}")
     private String groupId;
+    @Value("${t1.kafka.consumer.account-id}")
+    private String accountGroupId;
     @Value("${t1.kafka.bootstrap.server}")
     private String servers;
     @Value("${t1.kafka.session.timeout.ms:15000}")
@@ -51,7 +58,7 @@ public class DemoKafkaConfig<T> {
     @Value("${t1.kafka.topic.metrics}")
     private String metricsTopic;
 
-
+    // Client Consumer config
     @Bean
     public ConsumerFactory<String, ClientDto> consumerListenerFactory() {
         Map<String, Object> props = new HashMap<>();
@@ -94,6 +101,74 @@ public class DemoKafkaConfig<T> {
         factory.setCommonErrorHandler(errorHandler());
     }
 
+    // Account Consumer config
+    @Bean
+    public ConsumerFactory<String, AccountDto> consumerAccountListenerFactory() {
+        Map<String, Object> props = new HashMap<>();
+        props.put(ConsumerConfig.BOOTSTRAP_SERVERS_CONFIG, servers);
+        props.put(ConsumerConfig.GROUP_ID_CONFIG, groupId);
+        props.put(ConsumerConfig.KEY_DESERIALIZER_CLASS_CONFIG, StringDeserializer.class);
+        props.put(ConsumerConfig.VALUE_DESERIALIZER_CLASS_CONFIG, MessageDeserializer.class);
+        props.put(JsonDeserializer.VALUE_DEFAULT_TYPE, "ru.t1.java.demo.model.dto.AccountDto");
+        props.put(JsonDeserializer.TRUSTED_PACKAGES, "*");
+        props.put(JsonDeserializer.USE_TYPE_INFO_HEADERS, false);
+        props.put(ConsumerConfig.SESSION_TIMEOUT_MS_CONFIG, sessionTimeout);
+        props.put(ConsumerConfig.MAX_PARTITION_FETCH_BYTES_CONFIG, maxPartitionFetchBytes);
+        props.put(ConsumerConfig.MAX_POLL_RECORDS_CONFIG, maxPollRecords);
+        props.put(ConsumerConfig.MAX_POLL_INTERVAL_MS_CONFIG, maxPollIntervalsMs);
+        props.put(ConsumerConfig.ENABLE_AUTO_COMMIT_CONFIG, Boolean.FALSE);
+        props.put(ConsumerConfig.AUTO_OFFSET_RESET_CONFIG, "earliest");
+        props.put(ErrorHandlingDeserializer.VALUE_DESERIALIZER_CLASS, MessageDeserializer.class.getName());
+        props.put(ErrorHandlingDeserializer.KEY_DESERIALIZER_CLASS, MessageDeserializer.class);
+
+        DefaultKafkaConsumerFactory factory = new DefaultKafkaConsumerFactory<String, AccountDto>(props);
+        factory.setKeyDeserializer(new StringDeserializer());
+
+        return factory;
+    }
+
+    @Bean
+    ConcurrentKafkaListenerContainerFactory<String, AccountDto> accountKafkaListenerContainerFactory(@Qualifier("consumerAccountListenerFactory") ConsumerFactory<String, AccountDto> consumerFactory) {
+        ConcurrentKafkaListenerContainerFactory<String, AccountDto> factory = new ConcurrentKafkaListenerContainerFactory<>();
+        factoryBuilder(consumerFactory, factory);
+        return factory;
+    }
+
+    //Transaction Consumer config
+    @Bean
+    public ConsumerFactory<String, TransactionDto> consumerTransactionListenerFactory() {
+        Map<String, Object> props = new HashMap<>();
+        props.put(ConsumerConfig.BOOTSTRAP_SERVERS_CONFIG, servers);
+        props.put(ConsumerConfig.GROUP_ID_CONFIG, groupId);
+        props.put(ConsumerConfig.KEY_DESERIALIZER_CLASS_CONFIG, StringDeserializer.class);
+        props.put(ConsumerConfig.VALUE_DESERIALIZER_CLASS_CONFIG, MessageDeserializer.class);
+        props.put(JsonDeserializer.VALUE_DEFAULT_TYPE, "ru.t1.java.demo.model.dto.TransactionDto");
+        props.put(JsonDeserializer.TRUSTED_PACKAGES, "*");
+        props.put(JsonDeserializer.USE_TYPE_INFO_HEADERS, false);
+        props.put(ConsumerConfig.SESSION_TIMEOUT_MS_CONFIG, sessionTimeout);
+        props.put(ConsumerConfig.MAX_PARTITION_FETCH_BYTES_CONFIG, maxPartitionFetchBytes);
+        props.put(ConsumerConfig.MAX_POLL_RECORDS_CONFIG, maxPollRecords);
+        props.put(ConsumerConfig.MAX_POLL_INTERVAL_MS_CONFIG, maxPollIntervalsMs);
+        props.put(ConsumerConfig.ENABLE_AUTO_COMMIT_CONFIG, Boolean.FALSE);
+        props.put(ConsumerConfig.AUTO_OFFSET_RESET_CONFIG, "earliest");
+        props.put(ErrorHandlingDeserializer.VALUE_DESERIALIZER_CLASS, MessageDeserializer.class.getName());
+        props.put(ErrorHandlingDeserializer.KEY_DESERIALIZER_CLASS, MessageDeserializer.class);
+
+        DefaultKafkaConsumerFactory factory = new DefaultKafkaConsumerFactory<String, TransactionDto>(props);
+        factory.setKeyDeserializer(new StringDeserializer());
+
+        return factory;
+    }
+
+    @Bean
+    ConcurrentKafkaListenerContainerFactory<String, TransactionDto> transactionKafkaListenerContainerFactory(@Qualifier("consumerTransactionListenerFactory") ConsumerFactory<String, TransactionDto> consumerFactory) {
+        ConcurrentKafkaListenerContainerFactory<String, TransactionDto> factory = new ConcurrentKafkaListenerContainerFactory<>();
+        factoryBuilder(consumerFactory, factory);
+        return factory;
+    }
+
+
+
     private CommonErrorHandler errorHandler() {
         DefaultErrorHandler handler = new DefaultErrorHandler(new FixedBackOff(1000, 3));
         handler.addNotRetryableExceptions(IllegalStateException.class);
@@ -103,6 +178,7 @@ public class DemoKafkaConfig<T> {
         return handler;
     }
 
+    // Client Producer config
     @Bean("client")
     @Primary
     public KafkaTemplate<String, T> kafkaClientTemplate(@Qualifier("producerClientFactory") ProducerFactory<String, T> producerPatFactory) {
@@ -130,6 +206,7 @@ public class DemoKafkaConfig<T> {
         return new DefaultKafkaProducerFactory<>(props);
     }
 
+    // DataSourceErrorLog Producer config
     @Bean("dataSourceErrorLog")
     public KafkaTemplate<String, DataSourceErrorLogDto> kafkaDataSourceTemplate(@Qualifier("producerDataSourceFactory") ProducerFactory<String, DataSourceErrorLogDto> producerPatFactory) {
         return new KafkaTemplate<>(producerPatFactory);
@@ -156,6 +233,7 @@ public class DemoKafkaConfig<T> {
         return new DefaultKafkaProducerFactory<>(props);
     }
 
+    // Metrics Producer config
     @Bean("metrics")
     public KafkaTemplate<String, String> kafkaMetricsTemplate(@Qualifier("producerMetricsFactory") ProducerFactory<String, String> producerPatFactory) {
         return new KafkaTemplate<>(producerPatFactory);

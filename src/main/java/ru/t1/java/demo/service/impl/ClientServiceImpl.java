@@ -7,21 +7,18 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import ru.t1.java.demo.aop.LogDataSourceError;
 import ru.t1.java.demo.kafka.ClientProducer;
-import ru.t1.java.demo.model.dto.CheckResponse;
 import ru.t1.java.demo.model.dto.ClientDto;
 import ru.t1.java.demo.exception.EntityNotFoundException;
 import ru.t1.java.demo.model.Client;
 import ru.t1.java.demo.repository.ClientRepository;
 import ru.t1.java.demo.service.ClientService;
 import ru.t1.java.demo.util.mapper.ClientMapper;
-import ru.t1.java.demo.web.CheckWebClient;
 
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.Optional;
 import java.util.stream.Collectors;
 
 @Service("ClientServiceImpl")
@@ -31,7 +28,6 @@ public class ClientServiceImpl implements ClientService {
 
     private final ClientRepository repository;
     private final ClientProducer clientProducer;
-        private final CheckWebClient checkWebClient;
 
     @PostConstruct
     void init() {
@@ -70,14 +66,9 @@ public class ClientServiceImpl implements ClientService {
     public List<Client> registerClients(List<Client> clients) {
         List<Client> savedClients = new ArrayList<>();
         for (Client client : clients) {
-            Optional<CheckResponse> check = checkWebClient.check(client.getId());
-            check.ifPresent(checkResponse -> {
-                if (!checkResponse.getBlocked()) {
-                    Client saved = repository.save(client);
-                    clientProducer.send(saved.getId());
-                    savedClients.add(saved);
-                }
-            });
+            Client saved = repository.save(client);
+            clientProducer.send(saved.getId());
+            savedClients.add(saved);
 //            savedClients.add(repository.save(client));
         }
 
@@ -86,14 +77,6 @@ public class ClientServiceImpl implements ClientService {
 
     @Override
     public Client registerClient(Client client) {
-        /*Client saved = null;
-        Optional<CheckResponse> check = checkWebClient.check(client.getId());
-        if (check.isPresent()) {
-            if (!check.get().getBlocked()) {
-                saved = repository.save(client);
-                kafkaClientProducer.send(client.getId());
-            }
-        }*/
         Client saved = repository.save(client);
         clientProducer.send(client.getId());
         return saved;
