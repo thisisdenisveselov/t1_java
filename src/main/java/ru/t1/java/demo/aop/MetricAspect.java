@@ -25,7 +25,7 @@ public class MetricAspect {
     }
 
     @Around("@annotation(Metric)")
-    public Object checkExecutionTime(ProceedingJoinPoint pJoinPoint) {
+    public Object checkIfExecutionTimeExceeds(ProceedingJoinPoint pJoinPoint) {
         log.info("ASPECT AROUND ANNOTATION: Call method: {}", pJoinPoint.getSignature().getName());
 
         MethodSignature signature = (MethodSignature) pJoinPoint.getSignature();
@@ -45,10 +45,12 @@ public class MetricAspect {
         String args = Arrays.stream(pJoinPoint.getArgs())
                 .map(Object::toString)
                 .collect(Collectors.joining(", "));
+        if (args.isEmpty())
+            args = "No parameters";
 
         if (execTime > timeLimit) {
-            String message = String.format("Method %s with parameters %s exceeded time limit of %d ms with execution time of %d ms",
-                    pJoinPoint.getSignature(), args, timeLimit, execTime);
+            String message = String.format("Method: %s, Parameters: %s, Execution time: %d ms, Time limit: %d ms",
+                    pJoinPoint.getSignature(), args, execTime, timeLimit);
             try {
                 metricsProducer.send(message, HEADER_VALUE_METRICS);
                 log.info("Alert sent to Kafka: {}", message);

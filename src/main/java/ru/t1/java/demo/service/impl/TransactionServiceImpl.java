@@ -67,6 +67,7 @@ public class TransactionServiceImpl implements TransactionService {
     }
 
     @Override
+    @Metric(1)
     public List<Transaction> getTransactions() {
         return transactionRepository.findAll();
     }
@@ -89,6 +90,7 @@ public class TransactionServiceImpl implements TransactionService {
 
     @Override
     @LogDataSourceError
+    @Metric(1)
     public Transaction updateTransaction(Long transactionId, Transaction transaction) {
         Account account = accountService.getAccount(transaction.getAccount().getId());
         transaction.setId(transactionId);
